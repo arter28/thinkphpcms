@@ -1,0 +1,992 @@
+---------------------------------------------------------------
+[ 2017-07-06T06:12:13+08:00 ] 127.0.0.1 127.0.0.1 GET /stat.htm?id=4420195&r=http%3A%2F%2Ftool.oschina.net%2Fcodeformat%2Fhtml&lg=zh-cn&ntime=1499266689&cnzz_eid=717404520-1499261255-http%3A%2F%2Ftool.oschina.net%2F&showp=1366x768&t=%E5%9C%A8%E7%BA%BF%E4%BB%A3%E7%A0%81%E6%A0%BC%E5%BC%8F%E5%8C%96&umuuid=15d12f631a1aa-07b4437ffae5bd-4d015463-100200-15d12f631a314d&h=1&rnd=1923980935
+[ info ] hzs10.cnzz.com/stat.htm?id=4420195&r=http%3A%2F%2Ftool.oschina.net%2Fcodeformat%2Fhtml&lg=zh-cn&ntime=1499266689&cnzz_eid=717404520-1499261255-http%3A%2F%2Ftool.oschina.net%2F&showp=1366x768&t=%E5%9C%A8%E7%BA%BF%E4%BB%A3%E7%A0%81%E6%A0%BC%E5%BC%8F%E5%8C%96&umuuid=15d12f631a1aa-07b4437ffae5bd-4d015463-100200-15d12f631a314d&h=1&rnd=1923980935 [运行时间：0.044607s][吞吐率：22.42req/s] [内存消耗：1,129.91kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'stat.htm',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'cna=eeLjETLvVyACARskLG0yTubT',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://tool.oschina.net/codeformat/css',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'hzs10.cnzz.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4420195',
+  'r' => 'http://tool.oschina.net/codeformat/html',
+  'lg' => 'zh-cn',
+  'ntime' => '1499266689',
+  'cnzz_eid' => '717404520-1499261255-http://tool.oschina.net/',
+  'showp' => '1366x768',
+  't' => '在线代码格式化',
+  'umuuid' => '15d12f631a1aa-07b4437ffae5bd-4d015463-100200-15d12f631a314d',
+  'h' => '1',
+  'rnd' => '1923980935',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-06T06:31:50+08:00 ] 127.0.0.1 127.0.0.1 GET /stat.htm?id=4420195&r=http%3A%2F%2Ftool.oschina.net%2Fcodeformat%2Fcss&lg=zh-cn&ntime=1499288758&cnzz_eid=717404520-1499261255-http%3A%2F%2Ftool.oschina.net%2F&showp=1366x768&t=%E5%9C%A8%E7%BA%BF%E4%BB%A3%E7%A0%81%E6%A0%BC%E5%BC%8F%E5%8C%96&umuuid=15d12f631a1aa-07b4437ffae5bd-4d015463-100200-15d12f631a314d&h=1&rnd=277261340
+[ info ] hzs10.cnzz.com/stat.htm?id=4420195&r=http%3A%2F%2Ftool.oschina.net%2Fcodeformat%2Fcss&lg=zh-cn&ntime=1499288758&cnzz_eid=717404520-1499261255-http%3A%2F%2Ftool.oschina.net%2F&showp=1366x768&t=%E5%9C%A8%E7%BA%BF%E4%BB%A3%E7%A0%81%E6%A0%BC%E5%BC%8F%E5%8C%96&umuuid=15d12f631a1aa-07b4437ffae5bd-4d015463-100200-15d12f631a314d&h=1&rnd=277261340 [运行时间：0.050700s][吞吐率：19.72req/s] [内存消耗：1,129.95kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'stat.htm',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'cna=eeLjETLvVyACARskLG0yTubT',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://tool.oschina.net/codeformat/html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'hzs10.cnzz.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4420195',
+  'r' => 'http://tool.oschina.net/codeformat/css',
+  'lg' => 'zh-cn',
+  'ntime' => '1499288758',
+  'cnzz_eid' => '717404520-1499261255-http://tool.oschina.net/',
+  'showp' => '1366x768',
+  't' => '在线代码格式化',
+  'umuuid' => '15d12f631a1aa-07b4437ffae5bd-4d015463-100200-15d12f631a314d',
+  'h' => '1',
+  'rnd' => '277261340',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-06T06:44:46+08:00 ] 127.0.0.1 127.0.0.1 GET /stat.htm?id=4420195&r=http%3A%2F%2Ftool.oschina.net%2Fcodeformat%2Fhtml&lg=zh-cn&ntime=1499288758&cnzz_eid=717404520-1499261255-http%3A%2F%2Ftool.oschina.net%2F&showp=1366x768&t=%E5%9C%A8%E7%BA%BF%E4%BB%A3%E7%A0%81%E6%A0%BC%E5%BC%8F%E5%8C%96&umuuid=15d12f631a1aa-07b4437ffae5bd-4d015463-100200-15d12f631a314d&h=1&rnd=943692832
+[ info ] hzs10.cnzz.com/stat.htm?id=4420195&r=http%3A%2F%2Ftool.oschina.net%2Fcodeformat%2Fhtml&lg=zh-cn&ntime=1499288758&cnzz_eid=717404520-1499261255-http%3A%2F%2Ftool.oschina.net%2F&showp=1366x768&t=%E5%9C%A8%E7%BA%BF%E4%BB%A3%E7%A0%81%E6%A0%BC%E5%BC%8F%E5%8C%96&umuuid=15d12f631a1aa-07b4437ffae5bd-4d015463-100200-15d12f631a314d&h=1&rnd=943692832 [运行时间：0.050910s][吞吐率：19.64req/s] [内存消耗：1,129.95kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'stat.htm',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'cna=eeLjETLvVyACARskLG0yTubT',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://tool.oschina.net/codeformat/css',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'hzs10.cnzz.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4420195',
+  'r' => 'http://tool.oschina.net/codeformat/html',
+  'lg' => 'zh-cn',
+  'ntime' => '1499288758',
+  'cnzz_eid' => '717404520-1499261255-http://tool.oschina.net/',
+  'showp' => '1366x768',
+  't' => '在线代码格式化',
+  'umuuid' => '15d12f631a1aa-07b4437ffae5bd-4d015463-100200-15d12f631a314d',
+  'h' => '1',
+  'rnd' => '943692832',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-06T07:31:14+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.sunly.com/ [运行时间：0.153931s][吞吐率：6.50req/s] [内存消耗：2,018.66kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'gr_user_id=a79a1104-f122-4cd9-9ce8-0abb2b0c3e40',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\www/application/index\view\index\index.html [ array (
+  0 => 'keywords',
+  1 => 'ComName',
+  2 => 'Descriptions',
+  3 => 'telephone',
+  4 => 'SiteTitle',
+  5 => 'Email',
+  6 => 'plist',
+  7 => 'nlist',
+  8 => 'aboutcon',
+  9 => 'aboutpic',
+  10 => 'clist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015416s ] mysql:dbname=thinkphptest;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_site` [ RunTime:0.012780s ]
+[ sql ] [ SQL ] SELECT `keywordsch`,`ComNamech`,`Descriptionsch`,`Telephone`,`SiteTitlech`,`Email` FROM `sunlynet_site` WHERE  `ID` = 1 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_products` [ RunTime:0.011801s ]
+[ sql ] [ SQL ] SELECT `ID`,`ProductNamech`,`SmallPic`,`AddTime` FROM `sunlynet_products` WHERE  `ViewFlagch` = 1 ORDER BY ID desc LIMIT 6 [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_news` [ RunTime:0.010818s ]
+[ sql ] [ SQL ] SELECT `ID`,`NewsNamech`,`SunlyNetPic`,`ClickNumber`,`SeoDescriptionch`,`AddTime` FROM `sunlynet_news` WHERE  `ViewFlagch` = 1 ORDER BY ID desc LIMIT 3 [ RunTime:0.000538s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_about` [ RunTime:0.011176s ]
+[ sql ] [ SQL ] SELECT `Contentch`,`SunlyNetPic` FROM `sunlynet_about` WHERE  `ID` = 3 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_case` [ RunTime:0.011465s ]
+[ sql ] [ SQL ] SELECT `ID`,`CaseNamech`,`SunlyNetPic`,`SeoDescriptionch`,`AddTime` FROM `sunlynet_case` WHERE  `ViewFlagch` = 1 ORDER BY ID desc LIMIT 4 [ RunTime:0.000556s ]
+---------------------------------------------------------------
+[ 2017-07-06T07:31:14+08:00 ] 127.0.0.1 127.0.0.1 GET /images/logo.png
+[ info ] www.sunly.com/images/logo.png [运行时间：0.047469s][吞吐率：21.07req/s] [内存消耗：1,127.33kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'logo.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'gr_user_id=a79a1104-f122-4cd9-9ce8-0abb2b0c3e40',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.sunly.com/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-06T07:31:15+08:00 ] 127.0.0.1 127.0.0.1 GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0
+[ info ] www.sunly.com/static/fonts/fontawesome-webfont.woff2?v=4.7.0 [运行时间：0.036604s][吞吐率：27.32req/s] [内存消耗：1,128.19kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'fontawesome-webfont.woff2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'gr_user_id=a79a1104-f122-4cd9-9ce8-0abb2b0c3e40',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.sunly.com/static/css/font-awesome.min.css',
+  'accept' => '*/*',
+  'origin' => 'http://www.sunly.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.7.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-06T07:31:15+08:00 ] 127.0.0.1 127.0.0.1 GET /static/images/consul-bg.jpeg.jpg
+[ info ] www.sunly.com/static/images/consul-bg.jpeg.jpg [运行时间：0.035243s][吞吐率：28.37req/s] [内存消耗：1,127.49kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'consul-bg.jpeg.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'gr_user_id=a79a1104-f122-4cd9-9ce8-0abb2b0c3e40',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.sunly.com/static/css/style.css',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-06T07:31:16+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.sunly.com/ [运行时间：0.118038s][吞吐率：8.47req/s] [内存消耗：2,018.59kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'gr_user_id=a79a1104-f122-4cd9-9ce8-0abb2b0c3e40',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\www/application/index\view\index\index.html [ array (
+  0 => 'keywords',
+  1 => 'ComName',
+  2 => 'Descriptions',
+  3 => 'telephone',
+  4 => 'SiteTitle',
+  5 => 'Email',
+  6 => 'plist',
+  7 => 'nlist',
+  8 => 'aboutcon',
+  9 => 'aboutpic',
+  10 => 'clist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000785s ] mysql:dbname=thinkphptest;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_site` [ RunTime:0.012407s ]
+[ sql ] [ SQL ] SELECT `keywordsch`,`ComNamech`,`Descriptionsch`,`Telephone`,`SiteTitlech`,`Email` FROM `sunlynet_site` WHERE  `ID` = 1 [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_products` [ RunTime:0.012154s ]
+[ sql ] [ SQL ] SELECT `ID`,`ProductNamech`,`SmallPic`,`AddTime` FROM `sunlynet_products` WHERE  `ViewFlagch` = 1 ORDER BY ID desc LIMIT 6 [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_news` [ RunTime:0.011758s ]
+[ sql ] [ SQL ] SELECT `ID`,`NewsNamech`,`SunlyNetPic`,`ClickNumber`,`SeoDescriptionch`,`AddTime` FROM `sunlynet_news` WHERE  `ViewFlagch` = 1 ORDER BY ID desc LIMIT 3 [ RunTime:0.000514s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_about` [ RunTime:0.013222s ]
+[ sql ] [ SQL ] SELECT `Contentch`,`SunlyNetPic` FROM `sunlynet_about` WHERE  `ID` = 3 [ RunTime:0.000358s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_case` [ RunTime:0.011366s ]
+[ sql ] [ SQL ] SELECT `ID`,`CaseNamech`,`SunlyNetPic`,`SeoDescriptionch`,`AddTime` FROM `sunlynet_case` WHERE  `ViewFlagch` = 1 ORDER BY ID desc LIMIT 4 [ RunTime:0.000413s ]
+---------------------------------------------------------------
+[ 2017-07-06T07:31:16+08:00 ] 127.0.0.1 127.0.0.1 GET /images/logo.png
+[ info ] www.sunly.com/images/logo.png [运行时间：0.044748s][吞吐率：22.35req/s] [内存消耗：1,127.33kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'logo.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'gr_user_id=a79a1104-f122-4cd9-9ce8-0abb2b0c3e40',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.sunly.com/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-06T07:31:16+08:00 ] 127.0.0.1 127.0.0.1 GET /static/images/consul-bg.jpeg.jpg
+[ info ] www.sunly.com/static/images/consul-bg.jpeg.jpg [运行时间：0.035852s][吞吐率：27.89req/s] [内存消耗：1,127.49kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'consul-bg.jpeg.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'gr_user_id=a79a1104-f122-4cd9-9ce8-0abb2b0c3e40',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.sunly.com/static/css/style.css',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-06T07:31:17+08:00 ] 127.0.0.1 127.0.0.1 GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0
+[ info ] www.sunly.com/static/fonts/fontawesome-webfont.woff2?v=4.7.0 [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：1,128.19kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'fonts',
+    2 => 'fontawesome-webfont.woff2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'gr_user_id=a79a1104-f122-4cd9-9ce8-0abb2b0c3e40',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.sunly.com/static/css/font-awesome.min.css',
+  'accept' => '*/*',
+  'origin' => 'http://www.sunly.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.7.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-06T09:23:05+08:00 ] 192.168.1.103 112.126.64.52 GET /
+[ info ] 27.36.44.109/ [运行时间：0.182424s][吞吐率：5.48req/s] [内存消耗：2,017.88kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => '27.36.44.109',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://27.36.44.109:80',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\www/application/index\view\index\index.html [ array (
+  0 => 'keywords',
+  1 => 'ComName',
+  2 => 'Descriptions',
+  3 => 'telephone',
+  4 => 'SiteTitle',
+  5 => 'Email',
+  6 => 'plist',
+  7 => 'nlist',
+  8 => 'aboutcon',
+  9 => 'aboutpic',
+  10 => 'clist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015914s ] mysql:dbname=thinkphptest;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_site` [ RunTime:0.015785s ]
+[ sql ] [ SQL ] SELECT `keywordsch`,`ComNamech`,`Descriptionsch`,`Telephone`,`SiteTitlech`,`Email` FROM `sunlynet_site` WHERE  `ID` = 1 [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_products` [ RunTime:0.013721s ]
+[ sql ] [ SQL ] SELECT `ID`,`ProductNamech`,`SmallPic`,`AddTime` FROM `sunlynet_products` WHERE  `ViewFlagch` = 1 ORDER BY ID desc LIMIT 6 [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_news` [ RunTime:0.013972s ]
+[ sql ] [ SQL ] SELECT `ID`,`NewsNamech`,`SunlyNetPic`,`ClickNumber`,`SeoDescriptionch`,`AddTime` FROM `sunlynet_news` WHERE  `ViewFlagch` = 1 ORDER BY ID desc LIMIT 3 [ RunTime:0.000497s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_about` [ RunTime:0.013382s ]
+[ sql ] [ SQL ] SELECT `Contentch`,`SunlyNetPic` FROM `sunlynet_about` WHERE  `ID` = 3 [ RunTime:0.000342s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_case` [ RunTime:0.012296s ]
+[ sql ] [ SQL ] SELECT `ID`,`CaseNamech`,`SunlyNetPic`,`SeoDescriptionch`,`AddTime` FROM `sunlynet_case` WHERE  `ViewFlagch` = 1 ORDER BY ID desc LIMIT 4 [ RunTime:0.000440s ]
+---------------------------------------------------------------
+[ 2017-07-06T09:26:49+08:00 ] 127.0.0.1 127.0.0.1 GET /stat.htm?id=1585378&r=&lg=zh-cn&ntime=none&cnzz_eid=314601181-1499304281-&showp=1366x768&t=js%E9%99%90%E5%88%B6%E6%96%87%E6%9C%AC%E6%A1%86%E8%BE%93%E5%85%A5%E9%95%BF%E5%BA%A6%E4%B8%A4%E7%A7%8D%E9%99%90%E5%88%B6%E6%96%B9%E5%BC%8F(%E9%95%BF%E5%BA%A6%E3%80%81%E5%AD%97%E8%8A%82%E6%95%B0)_%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86_%E8%84%9A%E6%9C%AC%E4%B9%8B%E5%AE%B6&umuuid=15d1581ba09382-043dc4ce141ab6-59170759-100200-15d1581ba0a31f&h=1&rnd=1973498393
+[ info ] hzs3.cnzz.com/stat.htm?id=1585378&r=&lg=zh-cn&ntime=none&cnzz_eid=314601181-1499304281-&showp=1366x768&t=js%E9%99%90%E5%88%B6%E6%96%87%E6%9C%AC%E6%A1%86%E8%BE%93%E5%85%A5%E9%95%BF%E5%BA%A6%E4%B8%A4%E7%A7%8D%E9%99%90%E5%88%B6%E6%96%B9%E5%BC%8F(%E9%95%BF%E5%BA%A6%E3%80%81%E5%AD%97%E8%8A%82%E6%95%B0)_%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86_%E8%84%9A%E6%9C%AC%E4%B9%8B%E5%AE%B6&umuuid=15d1581ba09382-043dc4ce141ab6-59170759-100200-15d1581ba0a31f&h=1&rnd=1973498393 [运行时间：0.057475s][吞吐率：17.40req/s] [内存消耗：1,129.73kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'stat.htm',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'cna=eeLjETLvVyACARskLG0yTubT',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.jb51.net/article/32697.htm',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0; SE 2.X MetaSr 1.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'hzs3.cnzz.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1585378',
+  'r' => '',
+  'lg' => 'zh-cn',
+  'ntime' => 'none',
+  'cnzz_eid' => '314601181-1499304281-',
+  'showp' => '1366x768',
+  't' => 'js限制文本框输入长度两种限制方式(长度、字节数)_基础知识_脚本之家',
+  'umuuid' => '15d1581ba09382-043dc4ce141ab6-59170759-100200-15d1581ba0a31f',
+  'h' => '1',
+  'rnd' => '1973498393',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-06T09:26:50+08:00 ] 127.0.0.1 127.0.0.1 GET /stat.htm?id=5488901&r=&lg=zh-cn&ntime=none&cnzz_eid=423529494-1499302328-&showp=1366x768&t=js%E9%99%90%E5%88%B6%E6%96%87%E6%9C%AC%E6%A1%86%E8%BE%93%E5%85%A5%E9%95%BF%E5%BA%A6%E4%B8%A4%E7%A7%8D%E9%99%90%E5%88%B6%E6%96%B9%E5%BC%8F(%E9%95%BF%E5%BA%A6%E3%80%81%E5%AD%97%E8%8A%82%E6%95%B0)_%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86_%E8%84%9A%E6%9C%AC%E4%B9%8B%E5%AE%B6&umuuid=15d1581ba09382-043dc4ce141ab6-59170759-100200-15d1581ba0a31f&h=1&rnd=266146432
+[ info ] zs25.cnzz.com/stat.htm?id=5488901&r=&lg=zh-cn&ntime=none&cnzz_eid=423529494-1499302328-&showp=1366x768&t=js%E9%99%90%E5%88%B6%E6%96%87%E6%9C%AC%E6%A1%86%E8%BE%93%E5%85%A5%E9%95%BF%E5%BA%A6%E4%B8%A4%E7%A7%8D%E9%99%90%E5%88%B6%E6%96%B9%E5%BC%8F(%E9%95%BF%E5%BA%A6%E3%80%81%E5%AD%97%E8%8A%82%E6%95%B0)_%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86_%E8%84%9A%E6%9C%AC%E4%B9%8B%E5%AE%B6&umuuid=15d1581ba09382-043dc4ce141ab6-59170759-100200-15d1581ba0a31f&h=1&rnd=266146432 [运行时间：0.052878s][吞吐率：18.91req/s] [内存消耗：1,129.72kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'stat.htm',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'cna=eeLjETLvVyACARskLG0yTubT',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.jb51.net/article/32697.htm',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0; SE 2.X MetaSr 1.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'zs25.cnzz.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5488901',
+  'r' => '',
+  'lg' => 'zh-cn',
+  'ntime' => 'none',
+  'cnzz_eid' => '423529494-1499302328-',
+  'showp' => '1366x768',
+  't' => 'js限制文本框输入长度两种限制方式(长度、字节数)_基础知识_脚本之家',
+  'umuuid' => '15d1581ba09382-043dc4ce141ab6-59170759-100200-15d1581ba0a31f',
+  'h' => '1',
+  'rnd' => '266146432',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-06T09:35:11+08:00 ] 127.0.0.1 127.0.0.1 GET /stat.htm?id=1585378&r=&lg=zh-cn&ntime=1499304281&cnzz_eid=314601181-1499304281-&showp=1366x768&t=JQuery%E8%8E%B7%E5%8F%96%E6%96%87%E6%9C%AC%E6%A1%86%E4%B8%AD%E5%AD%97%E7%AC%A6%E9%95%BF%E5%BA%A6%E7%9A%84%E4%BB%A3%E7%A0%81_jquery_%E8%84%9A%E6%9C%AC%E4%B9%8B%E5%AE%B6&umuuid=15d1581ba09382-043dc4ce141ab6-59170759-100200-15d1581ba0a31f&h=1&rnd=543675960
+[ info ] hzs3.cnzz.com/stat.htm?id=1585378&r=&lg=zh-cn&ntime=1499304281&cnzz_eid=314601181-1499304281-&showp=1366x768&t=JQuery%E8%8E%B7%E5%8F%96%E6%96%87%E6%9C%AC%E6%A1%86%E4%B8%AD%E5%AD%97%E7%AC%A6%E9%95%BF%E5%BA%A6%E7%9A%84%E4%BB%A3%E7%A0%81_jquery_%E8%84%9A%E6%9C%AC%E4%B9%8B%E5%AE%B6&umuuid=15d1581ba09382-043dc4ce141ab6-59170759-100200-15d1581ba0a31f&h=1&rnd=543675960 [运行时间：0.077292s][吞吐率：12.94req/s] [内存消耗：1,129.57kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'stat.htm',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'cna=eeLjETLvVyACARskLG0yTubT',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.jb51.net/article/28426.htm',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0; SE 2.X MetaSr 1.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'hzs3.cnzz.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1585378',
+  'r' => '',
+  'lg' => 'zh-cn',
+  'ntime' => '1499304281',
+  'cnzz_eid' => '314601181-1499304281-',
+  'showp' => '1366x768',
+  't' => 'JQuery获取文本框中字符长度的代码_jquery_脚本之家',
+  'umuuid' => '15d1581ba09382-043dc4ce141ab6-59170759-100200-15d1581ba0a31f',
+  'h' => '1',
+  'rnd' => '543675960',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-06T09:35:11+08:00 ] 127.0.0.1 127.0.0.1 GET /stat.htm?id=5488963&r=&lg=zh-cn&ntime=none&cnzz_eid=1735190535-1499300952-&showp=1366x768&t=JQuery%E8%8E%B7%E5%8F%96%E6%96%87%E6%9C%AC%E6%A1%86%E4%B8%AD%E5%AD%97%E7%AC%A6%E9%95%BF%E5%BA%A6%E7%9A%84%E4%BB%A3%E7%A0%81_jquery_%E8%84%9A%E6%9C%AC%E4%B9%8B%E5%AE%B6&umuuid=15d1581ba09382-043dc4ce141ab6-59170759-100200-15d1581ba0a31f&h=1&rnd=2094453551
+[ info ] zs25.cnzz.com/stat.htm?id=5488963&r=&lg=zh-cn&ntime=none&cnzz_eid=1735190535-1499300952-&showp=1366x768&t=JQuery%E8%8E%B7%E5%8F%96%E6%96%87%E6%9C%AC%E6%A1%86%E4%B8%AD%E5%AD%97%E7%AC%A6%E9%95%BF%E5%BA%A6%E7%9A%84%E4%BB%A3%E7%A0%81_jquery_%E8%84%9A%E6%9C%AC%E4%B9%8B%E5%AE%B6&umuuid=15d1581ba09382-043dc4ce141ab6-59170759-100200-15d1581ba0a31f&h=1&rnd=2094453551 [运行时间：0.052860s][吞吐率：18.92req/s] [内存消耗：1,129.61kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'stat.htm',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'cna=eeLjETLvVyACARskLG0yTubT',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.jb51.net/article/28426.htm',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0; SE 2.X MetaSr 1.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'zs25.cnzz.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5488963',
+  'r' => '',
+  'lg' => 'zh-cn',
+  'ntime' => 'none',
+  'cnzz_eid' => '1735190535-1499300952-',
+  'showp' => '1366x768',
+  't' => 'JQuery获取文本框中字符长度的代码_jquery_脚本之家',
+  'umuuid' => '15d1581ba09382-043dc4ce141ab6-59170759-100200-15d1581ba0a31f',
+  'h' => '1',
+  'rnd' => '2094453551',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-06T09:36:36+08:00 ] 127.0.0.1 127.0.0.1 GET /stat.htm?id=736677&r=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DSRnCra8nuo4wpIv491MbaivxbseYumQwUWRqsOsl9269jMaYRstUit8pqUimCXGRbCR6DkpTQCl60K47m6m0Uq%26wd%3D%26eqid%3Debce23f9000006e500000006595d9408&lg=zh-cn&ntime=none&cnzz_eid=801372826-1499300115-null&showp=1366x768&t=JQuery%E8%8E%B7%E5%8F%96%E6%96%87%E6%9C%AC%E6%A1%86%E4%B8%AD%E5%AD%97%E7%AC%A6%E9%95%BF%E5%BA%A6%E7%9A%84%E4%BB%A3%E7%A0%81&umuuid=15d158aad5aae-061c3cca8fcd27-4d015463-100200-15d158aad5b14a&h=1&rnd=342725840
+[ info ] hzs2.cnzz.com/stat.htm?id=736677&r=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DSRnCra8nuo4wpIv491MbaivxbseYumQwUWRqsOsl9269jMaYRstUit8pqUimCXGRbCR6DkpTQCl60K47m6m0Uq%26wd%3D%26eqid%3Debce23f9000006e500000006595d9408&lg=zh-cn&ntime=none&cnzz_eid=801372826-1499300115-null&showp=1366x768&t=JQuery%E8%8E%B7%E5%8F%96%E6%96%87%E6%9C%AC%E6%A1%86%E4%B8%AD%E5%AD%97%E7%AC%A6%E9%95%BF%E5%BA%A6%E7%9A%84%E4%BB%A3%E7%A0%81&umuuid=15d158aad5aae-061c3cca8fcd27-4d015463-100200-15d158aad5b14a&h=1&rnd=342725840 [运行时间：0.042386s][吞吐率：23.59req/s] [内存消耗：1,130.48kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'stat.htm',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'cna=eeLjETLvVyACARskLG0yTubT',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.poluoluo.com/jzxy/201110/145614.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'hzs2.cnzz.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '736677',
+  'r' => 'https://www.baidu.com/link?url=SRnCra8nuo4wpIv491MbaivxbseYumQwUWRqsOsl9269jMaYRstUit8pqUimCXGRbCR6DkpTQCl60K47m6m0Uq&wd=&eqid=ebce23f9000006e500000006595d9408',
+  'lg' => 'zh-cn',
+  'ntime' => 'none',
+  'cnzz_eid' => '801372826-1499300115-null',
+  'showp' => '1366x768',
+  't' => 'JQuery获取文本框中字符长度的代码',
+  'umuuid' => '15d158aad5aae-061c3cca8fcd27-4d015463-100200-15d158aad5b14a',
+  'h' => '1',
+  'rnd' => '342725840',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-06T09:36:37+08:00 ] 127.0.0.1 127.0.0.1 GET /stat.htm?id=1256914954&r=http%3A%2F%2Fwww.poluoluo.com%2Fjzxy%2F201110%2F145614.html&lg=zh-cn&ntime=none&cnzz_eid=1512603418-1499300821-http%3A%2F%2Fwww.poluoluo.com%2F&showp=1366x768&t=%E8%8A%B1%E7%93%A3%E5%88%86%E4%BA%AB%E6%8C%89%E9%92%AE&umuuid=15d158ab09b158-0998e135df3e8-4d015463-100200-15d158ab09c2ca&h=1&rnd=853300880
+[ info ] z4.cnzz.com/stat.htm?id=1256914954&r=http%3A%2F%2Fwww.poluoluo.com%2Fjzxy%2F201110%2F145614.html&lg=zh-cn&ntime=none&cnzz_eid=1512603418-1499300821-http%3A%2F%2Fwww.poluoluo.com%2F&showp=1366x768&t=%E8%8A%B1%E7%93%A3%E5%88%86%E4%BA%AB%E6%8C%89%E9%92%AE&umuuid=15d158ab09b158-0998e135df3e8-4d015463-100200-15d158ab09c2ca&h=1&rnd=853300880 [运行时间：0.046355s][吞吐率：21.57req/s] [内存消耗：1,130.45kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'stat.htm',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'cna=eeLjETLvVyACARskLG0yTubT',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://huaban.com/share/button?media=&url=http%3A%2F%2Fwww.poluoluo.com%2Fjzxy%2F201110%2F145614.html&md=poluoluo_com&title=&style=icon&size=32&minWidth=100&minHeight=100',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'z4.cnzz.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1256914954',
+  'r' => 'http://www.poluoluo.com/jzxy/201110/145614.html',
+  'lg' => 'zh-cn',
+  'ntime' => 'none',
+  'cnzz_eid' => '1512603418-1499300821-http://www.poluoluo.com/',
+  'showp' => '1366x768',
+  't' => '花瓣分享按钮',
+  'umuuid' => '15d158ab09b158-0998e135df3e8-4d015463-100200-15d158ab09c2ca',
+  'h' => '1',
+  'rnd' => '853300880',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-06T09:43:31+08:00 ] 127.0.0.1 127.0.0.1 GET /stat.htm?id=1585378&r=&lg=zh-cn&ntime=1499304281&cnzz_eid=314601181-1499304281-&showp=1366x768&t=JQuery%E8%8E%B7%E5%8F%96%E6%96%87%E6%9C%AC%E6%A1%86%E4%B8%AD%E5%AD%97%E7%AC%A6%E9%95%BF%E5%BA%A6%E7%9A%84%E4%BB%A3%E7%A0%81_jquery_%E8%84%9A%E6%9C%AC%E4%B9%8B%E5%AE%B6&umuuid=15d1581ba09382-043dc4ce141ab6-59170759-100200-15d1581ba0a31f&h=1&rnd=783717526
+[ info ] hzs3.cnzz.com/stat.htm?id=1585378&r=&lg=zh-cn&ntime=1499304281&cnzz_eid=314601181-1499304281-&showp=1366x768&t=JQuery%E8%8E%B7%E5%8F%96%E6%96%87%E6%9C%AC%E6%A1%86%E4%B8%AD%E5%AD%97%E7%AC%A6%E9%95%BF%E5%BA%A6%E7%9A%84%E4%BB%A3%E7%A0%81_jquery_%E8%84%9A%E6%9C%AC%E4%B9%8B%E5%AE%B6&umuuid=15d1581ba09382-043dc4ce141ab6-59170759-100200-15d1581ba0a31f&h=1&rnd=783717526 [运行时间：0.083514s][吞吐率：11.97req/s] [内存消耗：1,129.57kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'stat.htm',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'cna=eeLjETLvVyACARskLG0yTubT',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.jb51.net/article/28426.htm',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0; SE 2.X MetaSr 1.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'hzs3.cnzz.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1585378',
+  'r' => '',
+  'lg' => 'zh-cn',
+  'ntime' => '1499304281',
+  'cnzz_eid' => '314601181-1499304281-',
+  'showp' => '1366x768',
+  't' => 'JQuery获取文本框中字符长度的代码_jquery_脚本之家',
+  'umuuid' => '15d1581ba09382-043dc4ce141ab6-59170759-100200-15d1581ba0a31f',
+  'h' => '1',
+  'rnd' => '783717526',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-06T09:43:32+08:00 ] 127.0.0.1 127.0.0.1 GET /stat.htm?id=5488963&r=&lg=zh-cn&ntime=1499300952&cnzz_eid=1735190535-1499300952-&showp=1366x768&t=JQuery%E8%8E%B7%E5%8F%96%E6%96%87%E6%9C%AC%E6%A1%86%E4%B8%AD%E5%AD%97%E7%AC%A6%E9%95%BF%E5%BA%A6%E7%9A%84%E4%BB%A3%E7%A0%81_jquery_%E8%84%9A%E6%9C%AC%E4%B9%8B%E5%AE%B6&umuuid=15d1581ba09382-043dc4ce141ab6-59170759-100200-15d1581ba0a31f&h=1&rnd=1898039615
+[ info ] zs25.cnzz.com/stat.htm?id=5488963&r=&lg=zh-cn&ntime=1499300952&cnzz_eid=1735190535-1499300952-&showp=1366x768&t=JQuery%E8%8E%B7%E5%8F%96%E6%96%87%E6%9C%AC%E6%A1%86%E4%B8%AD%E5%AD%97%E7%AC%A6%E9%95%BF%E5%BA%A6%E7%9A%84%E4%BB%A3%E7%A0%81_jquery_%E8%84%9A%E6%9C%AC%E4%B9%8B%E5%AE%B6&umuuid=15d1581ba09382-043dc4ce141ab6-59170759-100200-15d1581ba0a31f&h=1&rnd=1898039615 [运行时间：0.055010s][吞吐率：18.18req/s] [内存消耗：1,129.53kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'stat.htm',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'cna=eeLjETLvVyACARskLG0yTubT',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.jb51.net/article/28426.htm',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0; SE 2.X MetaSr 1.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'zs25.cnzz.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5488963',
+  'r' => '',
+  'lg' => 'zh-cn',
+  'ntime' => '1499300952',
+  'cnzz_eid' => '1735190535-1499300952-',
+  'showp' => '1366x768',
+  't' => 'JQuery获取文本框中字符长度的代码_jquery_脚本之家',
+  'umuuid' => '15d1581ba09382-043dc4ce141ab6-59170759-100200-15d1581ba0a31f',
+  'h' => '1',
+  'rnd' => '1898039615',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-06T10:37:35+08:00 ] 192.168.1.103 42.51.216.26 GET /
+[ info ] 27.36.44.109:80/ [运行时间：0.173865s][吞吐率：5.75req/s] [内存消耗：2,017.30kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1',
+  'connection' => 'close',
+  'host' => '27.36.44.109:80',
+  'accept-encoding' => 'identity',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\www/application/index\view\index\index.html [ array (
+  0 => 'keywords',
+  1 => 'ComName',
+  2 => 'Descriptions',
+  3 => 'telephone',
+  4 => 'SiteTitle',
+  5 => 'Email',
+  6 => 'plist',
+  7 => 'nlist',
+  8 => 'aboutcon',
+  9 => 'aboutpic',
+  10 => 'clist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016695s ] mysql:dbname=thinkphptest;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_site` [ RunTime:0.017015s ]
+[ sql ] [ SQL ] SELECT `keywordsch`,`ComNamech`,`Descriptionsch`,`Telephone`,`SiteTitlech`,`Email` FROM `sunlynet_site` WHERE  `ID` = 1 [ RunTime:0.000789s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_products` [ RunTime:0.015009s ]
+[ sql ] [ SQL ] SELECT `ID`,`ProductNamech`,`SmallPic`,`AddTime` FROM `sunlynet_products` WHERE  `ViewFlagch` = 1 ORDER BY ID desc LIMIT 6 [ RunTime:0.000498s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_news` [ RunTime:0.013155s ]
+[ sql ] [ SQL ] SELECT `ID`,`NewsNamech`,`SunlyNetPic`,`ClickNumber`,`SeoDescriptionch`,`AddTime` FROM `sunlynet_news` WHERE  `ViewFlagch` = 1 ORDER BY ID desc LIMIT 3 [ RunTime:0.000755s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_about` [ RunTime:0.013446s ]
+[ sql ] [ SQL ] SELECT `Contentch`,`SunlyNetPic` FROM `sunlynet_about` WHERE  `ID` = 3 [ RunTime:0.000428s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_case` [ RunTime:0.014208s ]
+[ sql ] [ SQL ] SELECT `ID`,`CaseNamech`,`SunlyNetPic`,`SeoDescriptionch`,`AddTime` FROM `sunlynet_case` WHERE  `ViewFlagch` = 1 ORDER BY ID desc LIMIT 4 [ RunTime:0.000527s ]
+---------------------------------------------------------------
+[ 2017-07-06T12:01:27+08:00 ] 192.168.1.103 141.212.122.32 GET /
+[ info ] 27.36.44.109/ [运行时间：0.175855s][吞吐率：5.69req/s] [内存消耗：2,017.03kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'Mozilla/5.0 zgrab/0.x',
+  'host' => '27.36.44.109',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\www/application/index\view\index\index.html [ array (
+  0 => 'keywords',
+  1 => 'ComName',
+  2 => 'Descriptions',
+  3 => 'telephone',
+  4 => 'SiteTitle',
+  5 => 'Email',
+  6 => 'plist',
+  7 => 'nlist',
+  8 => 'aboutcon',
+  9 => 'aboutpic',
+  10 => 'clist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018812s ] mysql:dbname=thinkphptest;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_site` [ RunTime:0.015390s ]
+[ sql ] [ SQL ] SELECT `keywordsch`,`ComNamech`,`Descriptionsch`,`Telephone`,`SiteTitlech`,`Email` FROM `sunlynet_site` WHERE  `ID` = 1 [ RunTime:0.000569s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_products` [ RunTime:0.015684s ]
+[ sql ] [ SQL ] SELECT `ID`,`ProductNamech`,`SmallPic`,`AddTime` FROM `sunlynet_products` WHERE  `ViewFlagch` = 1 ORDER BY ID desc LIMIT 6 [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_news` [ RunTime:0.013414s ]
+[ sql ] [ SQL ] SELECT `ID`,`NewsNamech`,`SunlyNetPic`,`ClickNumber`,`SeoDescriptionch`,`AddTime` FROM `sunlynet_news` WHERE  `ViewFlagch` = 1 ORDER BY ID desc LIMIT 3 [ RunTime:0.000561s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_about` [ RunTime:0.013495s ]
+[ sql ] [ SQL ] SELECT `Contentch`,`SunlyNetPic` FROM `sunlynet_about` WHERE  `ID` = 3 [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_case` [ RunTime:0.014296s ]
+[ sql ] [ SQL ] SELECT `ID`,`CaseNamech`,`SunlyNetPic`,`SeoDescriptionch`,`AddTime` FROM `sunlynet_case` WHERE  `ViewFlagch` = 1 ORDER BY ID desc LIMIT 4 [ RunTime:0.000482s ]
+---------------------------------------------------------------
+[ 2017-07-06T16:00:19+08:00 ] 192.168.1.103 139.199.250.134 GET /
+[ info ] 58.252.90.86:80/ [运行时间：0.169237s][吞吐率：5.91req/s] [内存消耗：2,017.30kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1',
+  'connection' => 'close',
+  'host' => '58.252.90.86:80',
+  'accept-encoding' => 'identity',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\www/application/index\view\index\index.html [ array (
+  0 => 'keywords',
+  1 => 'ComName',
+  2 => 'Descriptions',
+  3 => 'telephone',
+  4 => 'SiteTitle',
+  5 => 'Email',
+  6 => 'plist',
+  7 => 'nlist',
+  8 => 'aboutcon',
+  9 => 'aboutpic',
+  10 => 'clist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016932s ] mysql:dbname=thinkphptest;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_site` [ RunTime:0.028786s ]
+[ sql ] [ SQL ] SELECT `keywordsch`,`ComNamech`,`Descriptionsch`,`Telephone`,`SiteTitlech`,`Email` FROM `sunlynet_site` WHERE  `ID` = 1 [ RunTime:0.000516s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_products` [ RunTime:0.013520s ]
+[ sql ] [ SQL ] SELECT `ID`,`ProductNamech`,`SmallPic`,`AddTime` FROM `sunlynet_products` WHERE  `ViewFlagch` = 1 ORDER BY ID desc LIMIT 6 [ RunTime:0.000587s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_news` [ RunTime:0.012512s ]
+[ sql ] [ SQL ] SELECT `ID`,`NewsNamech`,`SunlyNetPic`,`ClickNumber`,`SeoDescriptionch`,`AddTime` FROM `sunlynet_news` WHERE  `ViewFlagch` = 1 ORDER BY ID desc LIMIT 3 [ RunTime:0.000730s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_about` [ RunTime:0.012621s ]
+[ sql ] [ SQL ] SELECT `Contentch`,`SunlyNetPic` FROM `sunlynet_about` WHERE  `ID` = 3 [ RunTime:0.000445s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_case` [ RunTime:0.012392s ]
+[ sql ] [ SQL ] SELECT `ID`,`CaseNamech`,`SunlyNetPic`,`SeoDescriptionch`,`AddTime` FROM `sunlynet_case` WHERE  `ViewFlagch` = 1 ORDER BY ID desc LIMIT 4 [ RunTime:0.000511s ]
+---------------------------------------------------------------
+[ 2017-07-06T16:11:00+08:00 ] 192.168.1.103 112.126.64.52 GET /
+[ info ] 58.252.90.86/ [运行时间：0.171828s][吞吐率：5.82req/s] [内存消耗：2,017.88kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => '58.252.90.86',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://58.252.90.86:80',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\www/application/index\view\index\index.html [ array (
+  0 => 'keywords',
+  1 => 'ComName',
+  2 => 'Descriptions',
+  3 => 'telephone',
+  4 => 'SiteTitle',
+  5 => 'Email',
+  6 => 'plist',
+  7 => 'nlist',
+  8 => 'aboutcon',
+  9 => 'aboutpic',
+  10 => 'clist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014237s ] mysql:dbname=thinkphptest;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_site` [ RunTime:0.013667s ]
+[ sql ] [ SQL ] SELECT `keywordsch`,`ComNamech`,`Descriptionsch`,`Telephone`,`SiteTitlech`,`Email` FROM `sunlynet_site` WHERE  `ID` = 1 [ RunTime:0.000767s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_products` [ RunTime:0.014650s ]
+[ sql ] [ SQL ] SELECT `ID`,`ProductNamech`,`SmallPic`,`AddTime` FROM `sunlynet_products` WHERE  `ViewFlagch` = 1 ORDER BY ID desc LIMIT 6 [ RunTime:0.000568s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_news` [ RunTime:0.013031s ]
+[ sql ] [ SQL ] SELECT `ID`,`NewsNamech`,`SunlyNetPic`,`ClickNumber`,`SeoDescriptionch`,`AddTime` FROM `sunlynet_news` WHERE  `ViewFlagch` = 1 ORDER BY ID desc LIMIT 3 [ RunTime:0.000600s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_about` [ RunTime:0.014283s ]
+[ sql ] [ SQL ] SELECT `Contentch`,`SunlyNetPic` FROM `sunlynet_about` WHERE  `ID` = 3 [ RunTime:0.000491s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_case` [ RunTime:0.013893s ]
+[ sql ] [ SQL ] SELECT `ID`,`CaseNamech`,`SunlyNetPic`,`SeoDescriptionch`,`AddTime` FROM `sunlynet_case` WHERE  `ViewFlagch` = 1 ORDER BY ID desc LIMIT 4 [ RunTime:0.000479s ]
+---------------------------------------------------------------
+[ 2017-07-06T16:11:09+08:00 ] 192.168.1.103 112.126.64.52 GET /
+[ info ] 58.252.90.86/ [运行时间：0.176353s][吞吐率：5.67req/s] [内存消耗：2,017.80kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => '58.252.90.86',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://58.252.90.86:80',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\www/application/index\view\index\index.html [ array (
+  0 => 'keywords',
+  1 => 'ComName',
+  2 => 'Descriptions',
+  3 => 'telephone',
+  4 => 'SiteTitle',
+  5 => 'Email',
+  6 => 'plist',
+  7 => 'nlist',
+  8 => 'aboutcon',
+  9 => 'aboutpic',
+  10 => 'clist',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010688s ] mysql:dbname=thinkphptest;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_site` [ RunTime:0.028904s ]
+[ sql ] [ SQL ] SELECT `keywordsch`,`ComNamech`,`Descriptionsch`,`Telephone`,`SiteTitlech`,`Email` FROM `sunlynet_site` WHERE  `ID` = 1 [ RunTime:0.000421s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_products` [ RunTime:0.013992s ]
+[ sql ] [ SQL ] SELECT `ID`,`ProductNamech`,`SmallPic`,`AddTime` FROM `sunlynet_products` WHERE  `ViewFlagch` = 1 ORDER BY ID desc LIMIT 6 [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_news` [ RunTime:0.013594s ]
+[ sql ] [ SQL ] SELECT `ID`,`NewsNamech`,`SunlyNetPic`,`ClickNumber`,`SeoDescriptionch`,`AddTime` FROM `sunlynet_news` WHERE  `ViewFlagch` = 1 ORDER BY ID desc LIMIT 3 [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_about` [ RunTime:0.012114s ]
+[ sql ] [ SQL ] SELECT `Contentch`,`SunlyNetPic` FROM `sunlynet_about` WHERE  `ID` = 3 [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_case` [ RunTime:0.012889s ]
+[ sql ] [ SQL ] SELECT `ID`,`CaseNamech`,`SunlyNetPic`,`SeoDescriptionch`,`AddTime` FROM `sunlynet_case` WHERE  `ViewFlagch` = 1 ORDER BY ID desc LIMIT 4 [ RunTime:0.000439s ]
+---------------------------------------------------------------
+[ 2017-07-06T16:14:32+08:00 ] 127.0.0.1 127.0.0.1 GET /stat.htm?id=4420195&r=http%3A%2F%2Ftool.oschina.net%2Fcodeformat%2Fcss&lg=zh-cn&ntime=none&cnzz_eid=567288644-1499326562-http%3A%2F%2Ftool.oschina.net%2F&showp=1366x768&t=%E5%9C%A8%E7%BA%BF%E4%BB%A3%E7%A0%81%E6%A0%BC%E5%BC%8F%E5%8C%96&umuuid=15d16f6fe25336-0c408d9e752ba4-4d015463-100200-15d16f6fe2833a&h=1&rnd=207339235
+[ info ] hzs10.cnzz.com/stat.htm?id=4420195&r=http%3A%2F%2Ftool.oschina.net%2Fcodeformat%2Fcss&lg=zh-cn&ntime=none&cnzz_eid=567288644-1499326562-http%3A%2F%2Ftool.oschina.net%2F&showp=1366x768&t=%E5%9C%A8%E7%BA%BF%E4%BB%A3%E7%A0%81%E6%A0%BC%E5%BC%8F%E5%8C%96&umuuid=15d16f6fe25336-0c408d9e752ba4-4d015463-100200-15d16f6fe2833a&h=1&rnd=207339235 [运行时间：0.051804s][吞吐率：19.30req/s] [内存消耗：1,129.44kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'stat.htm',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://tool.oschina.net/codeformat/js',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'hzs10.cnzz.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4420195',
+  'r' => 'http://tool.oschina.net/codeformat/css',
+  'lg' => 'zh-cn',
+  'ntime' => 'none',
+  'cnzz_eid' => '567288644-1499326562-http://tool.oschina.net/',
+  'showp' => '1366x768',
+  't' => '在线代码格式化',
+  'umuuid' => '15d16f6fe25336-0c408d9e752ba4-4d015463-100200-15d16f6fe2833a',
+  'h' => '1',
+  'rnd' => '207339235',
+)
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,3631 @@
+---------------------------------------------------------------
+[ 2017-07-03T13:34:49+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php
+[ info ] www.sunly.com/public/index.php [运行时间：0.115223s][吞吐率：8.68req/s] [内存消耗：1,093.51kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T13:41:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index.html
+[ info ] www.sunly.com/index.html [运行时间：0.092957s][吞吐率：10.76req/s] [内存消耗：1,096.52kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T13:41:33+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.sunly.com/ [运行时间：0.057695s][吞吐率：17.33req/s] [内存消耗：1,096.38kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T13:45:53+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php
+[ info ] www.sunly.com/public/index.php [运行时间：0.083416s][吞吐率：11.99req/s] [内存消耗：1,093.57kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T13:46:11+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.sunly.com/public/ [运行时间：0.062778s][吞吐率：15.93req/s] [内存消耗：1,093.52kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T13:48:04+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php
+[ info ] www.sunly.com/public/index.php [运行时间：0.099702s][吞吐率：10.03req/s] [内存消耗：1,093.57kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T13:48:09+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php
+[ info ] www.sunly.com/public/index.php [运行时间：0.059514s][吞吐率：16.80req/s] [内存消耗：1,093.79kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T13:55:48+08:00 ] 127.0.0.1 127.0.0.1 GET /public/
+[ info ] www.sunly.com/public/ [运行时间：0.079025s][吞吐率：12.65req/s] [内存消耗：1,093.82kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://www.sunly.com/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T18:41:22+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.sunly.com/ [运行时间：0.050356s][吞吐率：19.86req/s] [内存消耗：1,093.76kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T18:44:09+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.sunly.com/ [运行时间：0.044513s][吞吐率：22.47req/s] [内存消耗：1,093.85kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T18:50:45+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.sunly.com/ [运行时间：0.056495s][吞吐率：17.70req/s] [内存消耗：1,093.61kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T18:57:07+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index
+[ info ] www.sunly.com/index.php/index/index [运行时间：0.060362s][吞吐率：16.57req/s] [内存消耗：1,093.71kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T19:05:14+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index
+[ info ] www.sunly.com/index.php/admin/index [运行时间：0.122842s][吞吐率：8.14req/s] [内存消耗：1,119.20kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T19:06:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index
+[ info ] www.sunly.com/index.php/admin/index [运行时间：0.038459s][吞吐率：26.00req/s] [内存消耗：1,093.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpStudy\www\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T19:07:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index
+[ info ] 127.0.0.1/index.php/admin/index [运行时间：0.049514s][吞吐率：20.20req/s] [内存消耗：1,093.00kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpStudy\www\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T19:07:45+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index
+[ info ] 127.0.0.1/index.php/index/index [运行时间：0.043137s][吞吐率：23.18req/s] [内存消耗：1,093.00kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T19:18:14+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.sunly.com/ [运行时间：0.043327s][吞吐率：23.08req/s] [内存消耗：1,094.30kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://123.sogou.com/',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T19:18:20+08:00 ] 127.0.0.1 127.0.0.1 GET /?index/index
+[ info ] www.sunly.com/?index/index [运行时间：0.045706s][吞吐率：21.88req/s] [内存消耗：1,094.20kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+  'index/index' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T19:18:26+08:00 ] 127.0.0.1 127.0.0.1 GET /?index/hello
+[ info ] www.sunly.com/?index/hello [运行时间：0.045101s][吞吐率：22.17req/s] [内存消耗：1,094.20kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+  'index/hello' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T19:18:35+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/hello
+[ info ] www.sunly.com/index.php/index/hello [运行时间：0.046676s][吞吐率：21.42req/s] [内存消耗：1,118.30kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'hello',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T19:18:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/hello
+[ info ] www.sunly.com/index.php/index/index/hello [运行时间：0.037684s][吞吐率：26.54req/s] [内存消耗：1,094.02kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->hello[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T19:22:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/hello
+[ info ] www.sunly.com/index.php/index/index/hello [运行时间：0.120175s][吞吐率：8.32req/s] [内存消耗：1,132.72kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->hello[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\Index::assign()[D:\phpStudy\www\application\index\controller\Index.php:12]
+---------------------------------------------------------------
+[ 2017-07-03T19:22:24+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/hello/222
+[ info ] www.sunly.com/index.php/index/index/hello/222 [运行时间：0.044051s][吞吐率：22.70req/s] [内存消耗：1,132.55kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->hello[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\Index::assign()[D:\phpStudy\www\application\index\controller\Index.php:12]
+---------------------------------------------------------------
+[ 2017-07-03T19:22:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/hello
+[ info ] www.sunly.com/index.php/index/index/hello [运行时间：0.043212s][吞吐率：23.14req/s] [内存消耗：1,132.45kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->hello[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\Index::assign()[D:\phpStudy\www\application\index\controller\Index.php:12]
+---------------------------------------------------------------
+[ 2017-07-03T19:22:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/hello/name/dfdsfsd
+[ info ] www.sunly.com/index.php/index/index/hello/name/dfdsfsd [运行时间：0.080299s][吞吐率：12.45req/s] [内存消耗：1,132.98kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'dfdsfsd',
+)
+[ info ] [ RUN ] app\index\controller\Index->hello[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\Index::assign()[D:\phpStudy\www\application\index\controller\Index.php:12]
+---------------------------------------------------------------
+[ 2017-07-03T19:24:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/view/index/hello.html
+[ info ] www.sunly.com/index.php/index/view/index/hello.html [运行时间：0.054393s][吞吐率：18.38req/s] [内存消耗：1,118.38kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'view',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T19:24:48+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/view/index/hello
+[ info ] www.sunly.com/index.php/index/view/index/hello [运行时间：0.044724s][吞吐率：22.36req/s] [内存消耗：1,118.45kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'view',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T19:24:51+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/view/index/
+[ info ] www.sunly.com/index.php/index/view/index/ [运行时间：0.045215s][吞吐率：22.12req/s] [内存消耗：1,118.35kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'view',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T19:24:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/view/
+[ info ] www.sunly.com/index.php/index/view/ [运行时间：0.051213s][吞吐率：19.53req/s] [内存消耗：1,118.29kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'view',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T19:24:54+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index
+[ info ] www.sunly.com/index.php/index [运行时间：0.043584s][吞吐率：22.94req/s] [内存消耗：1,094.45kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T19:25:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/hello
+[ info ] www.sunly.com/index.php/index/hello [运行时间：0.041478s][吞吐率：24.11req/s] [内存消耗：1,118.30kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'hello',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T19:25:08+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/hello
+[ info ] www.sunly.com/index.php/index/index/hello [运行时间：0.046057s][吞吐率：21.71req/s] [内存消耗：1,132.45kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->hello[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\Index::assign()[D:\phpStudy\www\application\index\controller\Index.php:12]
+---------------------------------------------------------------
+[ 2017-07-03T19:25:59+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/hello
+[ info ] www.sunly.com/index.php/index/index/hello [运行时间：0.053451s][吞吐率：18.71req/s] [内存消耗：1,132.71kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->hello[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\Index::assign()[D:\phpStudy\www\application\index\controller\Index.php:13]
+---------------------------------------------------------------
+[ 2017-07-03T19:26:04+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/hello
+[ info ] www.sunly.com/index.php/index/index/hello [运行时间：0.037157s][吞吐率：26.91req/s] [内存消耗：1,132.73kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->hello[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\Index::assign()[D:\phpStudy\www\application\index\controller\Index.php:13]
+---------------------------------------------------------------
+[ 2017-07-03T19:26:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/hello
+[ info ] www.sunly.com/index.php/index/hello [运行时间：0.038847s][吞吐率：25.74req/s] [内存消耗：1,118.30kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'hello',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T19:26:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/hello
+[ info ] www.sunly.com/index.php/index/hello [运行时间：0.047363s][吞吐率：21.11req/s] [内存消耗：1,118.30kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'hello',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T19:26:55+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/hello
+[ info ] www.sunly.com/index.php/index/index/hello [运行时间：0.038907s][吞吐率：25.70req/s] [内存消耗：1,132.73kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->hello[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\Index::assign()[D:\phpStudy\www\application\index\controller\Index.php:13]
+---------------------------------------------------------------
+[ 2017-07-03T19:28:22+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/hello
+[ info ] www.sunly.com/index.php/index/index/hello [运行时间：0.063747s][吞吐率：15.69req/s] [内存消耗：1,132.73kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->hello[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\Index::assign()[D:\phpStudy\www\application\index\controller\Index.php:13]
+---------------------------------------------------------------
+[ 2017-07-03T19:29:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/hello
+[ info ] www.sunly.com/index.php/index/index/hello [运行时间：0.042077s][吞吐率：23.77req/s] [内存消耗：1,132.73kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->hello[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\Index::assign()[D:\phpStudy\www\application\index\controller\Index.php:13]
+---------------------------------------------------------------
+[ 2017-07-03T19:29:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/hello
+[ info ] www.sunly.com/index.php/index/index/hello [运行时间：0.039710s][吞吐率：25.18req/s] [内存消耗：1,132.73kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->hello[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\Index::assign()[D:\phpStudy\www\application\index\controller\Index.php:13]
+---------------------------------------------------------------
+[ 2017-07-03T19:29:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/hello
+[ info ] www.sunly.com/index.php/index/index/hello [运行时间：0.040221s][吞吐率：24.86req/s] [内存消耗：1,132.73kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->hello[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\Index::assign()[D:\phpStudy\www\application\index\controller\Index.php:13]
+---------------------------------------------------------------
+[ 2017-07-03T19:29:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/hello
+[ info ] www.sunly.com/index.php/index/index/hello [运行时间：0.050110s][吞吐率：19.96req/s] [内存消耗：1,132.73kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->hello[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\Index::assign()[D:\phpStudy\www\application\index\controller\Index.php:13]
+---------------------------------------------------------------
+[ 2017-07-03T19:30:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/hello
+[ info ] www.sunly.com/index.php/index/index/hello [运行时间：0.050341s][吞吐率：19.86req/s] [内存消耗：1,132.73kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->hello[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\Index::assign()[D:\phpStudy\www\application\index\controller\Index.php:13]
+---------------------------------------------------------------
+[ 2017-07-03T19:31:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/hello
+[ info ] www.sunly.com/index.php/index/index/hello [运行时间：0.040156s][吞吐率：24.90req/s] [内存消耗：1,132.73kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->hello[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\Index::assign()[D:\phpStudy\www\application\index\controller\Index.php:13]
+---------------------------------------------------------------
+[ 2017-07-03T19:31:21+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/hello
+[ info ] www.sunly.com/index.php/index/index/hello [运行时间：0.037939s][吞吐率：26.36req/s] [内存消耗：1,132.73kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->hello[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\Index::assign()[D:\phpStudy\www\application\index\controller\Index.php:13]
+---------------------------------------------------------------
+[ 2017-07-03T19:31:21+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/hello
+[ info ] www.sunly.com/index.php/index/index/hello [运行时间：0.040756s][吞吐率：24.54req/s] [内存消耗：1,132.73kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->hello[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\Index::assign()[D:\phpStudy\www\application\index\controller\Index.php:13]
+---------------------------------------------------------------
+[ 2017-07-03T19:31:22+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/hello
+[ info ] www.sunly.com/index.php/index/index/hello [运行时间：0.036796s][吞吐率：27.18req/s] [内存消耗：1,132.73kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->hello[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method app\index\controller\Index::assign()[D:\phpStudy\www\application\index\controller\Index.php:13]
+---------------------------------------------------------------
+[ 2017-07-03T19:32:26+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/hello
+[ info ] www.sunly.com/index.php/index/index/hello [运行时间：0.170318s][吞吐率：5.87req/s] [内存消耗：1,426.52kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->hello[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\www/application/index\view\index\hello.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T19:36:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/readdb
+[ info ] www.sunly.com/index.php/index/index/readdb [运行时间：0.361502s][吞吐率：2.77req/s] [内存消耗：1,939.52kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'readdb',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->readdb[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011905s ] mysql:dbname=sunlynetcms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_about` [ RunTime:0.071726s ]
+[ sql ] [ SQL ] SELECT * FROM `sunlynet_about` LIMIT 1 [ RunTime:0.048465s ]
+[ error ] [0]模板文件不存在:D:\phpStudy\www/application/index\view\index\readdb.html[D:\phpStudy\www\thinkphp\library\think\view\driver\Think.php:80]
+---------------------------------------------------------------
+[ 2017-07-03T19:36:26+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/readdb
+[ info ] www.sunly.com/index.php/index/index/readdb [运行时间：0.164493s][吞吐率：6.08req/s] [内存消耗：1,939.69kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'readdb',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->readdb[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000728s ] mysql:dbname=sunlynetcms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_about` [ RunTime:0.029625s ]
+[ sql ] [ SQL ] SELECT * FROM `sunlynet_about` LIMIT 1 [ RunTime:0.000620s ]
+[ error ] [0]模板文件不存在:D:\phpStudy\www/application/index\view\index\readdb.html[D:\phpStudy\www\thinkphp\library\think\view\driver\Think.php:80]
+---------------------------------------------------------------
+[ 2017-07-03T19:37:26+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/readdb
+[ info ] www.sunly.com/index.php/index/index/readdb [运行时间：0.210919s][吞吐率：4.74req/s] [内存消耗：2,063.27kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'readdb',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->readdb[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\www/application/index\view\index\readdb.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011667s ] mysql:dbname=sunlynetcms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_about` [ RunTime:0.014285s ]
+[ sql ] [ SQL ] SELECT * FROM `sunlynet_about` LIMIT 1 [ RunTime:0.000570s ]
+[ error ] [8]未定义数组索引: id[D:\phpStudy\www\runtime\temp\650c1736ba3bd020b0ca9148e547c8e9.php:7]
+---------------------------------------------------------------
+[ 2017-07-03T19:38:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/readdb
+[ info ] www.sunly.com/index.php/index/index/readdb [运行时间：0.174126s][吞吐率：5.74req/s] [内存消耗：2,028.53kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'readdb',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->readdb[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\www/application/index\view\index\readdb.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010687s ] mysql:dbname=sunlynetcms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_about` [ RunTime:0.013470s ]
+[ sql ] [ SQL ] SELECT * FROM `sunlynet_about` LIMIT 1 [ RunTime:0.000601s ]
+---------------------------------------------------------------
+[ 2017-07-03T19:38:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/readdb
+[ info ] www.sunly.com/index.php/index/index/readdb [运行时间：0.121148s][吞吐率：8.25req/s] [内存消耗：2,063.38kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'readdb',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->readdb[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\www/application/index\view\index\readdb.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010922s ] mysql:dbname=sunlynetcms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_about` [ RunTime:0.013519s ]
+[ sql ] [ SQL ] SELECT * FROM `sunlynet_about` LIMIT 1 [ RunTime:0.000489s ]
+[ error ] [8]未定义数组索引: id[D:\phpStudy\www\runtime\temp\650c1736ba3bd020b0ca9148e547c8e9.php:7]
+---------------------------------------------------------------
+[ 2017-07-03T19:41:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/index/index/readdb
+[ info ] www.sunly.com/index.php/index/index/readdb [运行时间：0.101077s][吞吐率：9.89req/s] [内存消耗：2,028.59kb] [文件加载：54]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'readdb',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->readdb[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\www/application/index\view\index\readdb.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000827s ] mysql:dbname=sunlynetcms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_about` [ RunTime:0.013446s ]
+[ sql ] [ SQL ] SELECT * FROM `sunlynet_about` LIMIT 1 [ RunTime:0.000503s ]
+---------------------------------------------------------------
+[ 2017-07-03T19:41:17+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index/readdb
+[ info ] www.sunly.com/index/index/index/readdb [运行时间：0.066317s][吞吐率：15.08req/s] [内存消耗：1,315.48kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T19:41:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index/readdb
+[ info ] www.sunly.com/index/index/index/readdb [运行时间：0.060526s][吞吐率：16.52req/s] [内存消耗：1,315.78kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T19:41:25+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/readdb
+[ info ] www.sunly.com/index/index/readdb [运行时间：0.107108s][吞吐率：9.34req/s] [内存消耗：1,918.51kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'readdb',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->readdb[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\www/application/index\view\index\readdb.html [ array (
+  0 => 'result',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000745s ] mysql:dbname=sunlynetcms;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sunlynet_about` [ RunTime:0.017170s ]
+[ sql ] [ SQL ] SELECT * FROM `sunlynet_about` LIMIT 1 [ RunTime:0.000542s ]
+---------------------------------------------------------------
+[ 2017-07-03T19:52:01+08:00 ] 192.168.1.103 139.162.88.63 GET http://clientapi.ipip.net/echo.php?info=1234567890
+[ info ] clientapi.ipip.nethttp://clientapi.ipip.net/echo.php?info=1234567890 [运行时间：0.121439s][吞吐率：8.23req/s] [内存消耗：1,118.45kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'echo.php',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'user-agent' => 'Go-http-client/1.1',
+  'host' => 'clientapi.ipip.net',
+)
+[ info ] [ PARAM ] array (
+  'info' => '1234567890',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:18:10+08:00 ] 127.0.0.1 127.0.0.1 GET /hello/thinkphp
+[ info ] www.sunly.com/hello/thinkphp [运行时间：0.075545s][吞吐率：13.24req/s] [内存消耗：1,321.48kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'thinkphp',
+)
+[ info ] [ RUN ] app\index\controller\Index->hello[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\www/application/index\view\index\hello.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:18:18+08:00 ] 127.0.0.1 127.0.0.1 GET /hello/thinkphp11
+[ info ] www.sunly.com/hello/thinkphp11 [运行时间：0.050335s][吞吐率：19.87req/s] [内存消耗：1,321.48kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'thinkphp11',
+)
+[ info ] [ RUN ] app\index\controller\Index->hello[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\www/application/index\view\index\hello.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:28:15+08:00 ] 127.0.0.1 127.0.0.1 GET /hello/thinkphp11.html
+[ info ] www.sunly.com/hello/thinkphp11.html [运行时间：0.069399s][吞吐率：14.41req/s] [内存消耗：1,323.55kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'thinkphp11',
+)
+[ info ] [ RUN ] app\index\controller\Index->hello[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\www/application/index\view\index\hello.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:28:20+08:00 ] 127.0.0.1 127.0.0.1 GET /hello.html
+[ info ] www.sunly.com/hello.html [运行时间：0.050212s][吞吐率：19.92req/s] [内存消耗：1,323.43kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'hello',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => NULL,
+)
+[ info ] [ RUN ] app\index\controller\Index->hello[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\www/application/index\view\index\hello.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:32:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index2/
+[ info ] www.sunly.com/index/index2/ [运行时间：0.116142s][吞吐率：8.61req/s] [内存消耗：1,122.08kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index2',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:32:14+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index2/index
+[ info ] www.sunly.com/index/index2/index [运行时间：0.044652s][吞吐率：22.40req/s] [内存消耗：1,122.22kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index2',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:32:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index2
+[ info ] www.sunly.com/index/index/index2 [运行时间：0.056086s][吞吐率：17.83req/s] [内存消耗：1,341.07kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:33:03+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index2/index
+[ info ] www.sunly.com/index/index2/index [运行时间：0.041366s][吞吐率：24.17req/s] [内存消耗：1,096.71kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index2',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index2->index[ D:\phpStudy\www\application\index\controller\Index2.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:33:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index2/index
+[ info ] www.sunly.com/index/index2/index [运行时间：0.042702s][吞吐率：23.42req/s] [内存消耗：1,123.85kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index2',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:33:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index2/get
+[ info ] www.sunly.com/index/index2/get [运行时间：0.042271s][吞吐率：23.66req/s] [内存消耗：1,116.05kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index2',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:id[D:\phpStudy\www\thinkphp\library\think\App.php:281]
+---------------------------------------------------------------
+[ 2017-07-03T20:33:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index2/index
+[ info ] www.sunly.com/index/index2/index [运行时间：0.047339s][吞吐率：21.12req/s] [内存消耗：1,116.05kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index2',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:id[D:\phpStudy\www\thinkphp\library\think\App.php:281]
+---------------------------------------------------------------
+[ 2017-07-03T20:35:22+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/5
+[ info ] www.sunly.com/blog/5 [运行时间：0.057746s][吞吐率：17.32req/s] [内存消耗：1,129.85kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'blog',
+    2 => 'get',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:36:37+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/5
+[ info ] www.sunly.com/blog/5 [运行时间：0.041268s][吞吐率：24.23req/s] [内存消耗：1,132.38kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index2',
+    2 => 'get',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:37:20+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/5
+[ info ] www.sunly.com/blog/5 [运行时间：0.042482s][吞吐率：23.54req/s] [内存消耗：1,132.41kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index2',
+    2 => 'get',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:37:21+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/5
+[ info ] www.sunly.com/blog/5 [运行时间：0.043576s][吞吐率：22.95req/s] [内存消耗：1,132.41kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index2',
+    2 => 'get',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:37:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index2/
+[ info ] www.sunly.com/index/index2/ [运行时间：0.051580s][吞吐率：19.39req/s] [内存消耗：1,123.07kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index2',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:id[D:\phpStudy\www\thinkphp\library\think\App.php:281]
+---------------------------------------------------------------
+[ 2017-07-03T20:37:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index2/index
+[ info ] www.sunly.com/index/index2/index [运行时间：0.037724s][吞吐率：26.51req/s] [内存消耗：1,123.19kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index2',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:id[D:\phpStudy\www\thinkphp\library\think\App.php:281]
+---------------------------------------------------------------
+[ 2017-07-03T20:37:54+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index2/index
+[ info ] www.sunly.com/index/index2/index [运行时间：0.048894s][吞吐率：20.45req/s] [内存消耗：1,123.19kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index2',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:id[D:\phpStudy\www\thinkphp\library\think\App.php:281]
+---------------------------------------------------------------
+[ 2017-07-03T20:40:04+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/5
+[ info ] www.sunly.com/blog/5 [运行时间：0.054299s][吞吐率：18.42req/s] [内存消耗：1,129.89kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'blog',
+    2 => 'get',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:40:22+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/2015/05
+[ info ] www.sunly.com/blog/2015/05 [运行时间：0.053509s][吞吐率：18.69req/s] [内存消耗：1,130.20kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'blog',
+    2 => 'archive',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+  'year' => '2015',
+  'month' => '05',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:42:26+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/blog/2015/05
+[ info ] www.sunly.com/blog/blog/2015/05 [运行时间：0.179260s][吞吐率：5.58req/s] [内存消耗：1,130.21kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'blog',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'blog',
+  0 => '05',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:42:32+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/blog/get/5
+[ info ] www.sunly.com/blog/blog/get/5 [运行时间：0.040477s][吞吐率：24.71req/s] [内存消耗：1,130.27kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'blog',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'blog',
+  'get' => '5',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:44:31+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/index/get/5
+[ info ] www.sunly.com/blog/index/get/5 [运行时间：0.069926s][吞吐率：14.30req/s] [内存消耗：1,130.18kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'blog',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'index',
+  'get' => '5',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:44:34+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/index/get/
+[ info ] www.sunly.com/blog/index/get/ [运行时间：0.049510s][吞吐率：20.20req/s] [内存消耗：1,130.03kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'blog',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'index',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:46:07+08:00 ] 127.0.0.1 127.0.0.1 GET /index/blog/index/get/
+[ info ] www.sunly.com/index/blog/index/get/ [运行时间：0.044232s][吞吐率：22.61req/s] [内存消耗：1,128.47kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'blog',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:46:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index/blog/index
+[ info ] www.sunly.com/index/blog/index [运行时间：0.042217s][吞吐率：23.69req/s] [内存消耗：1,128.45kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'blog',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:46:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index
+[ info ] www.sunly.com/index/index/index [运行时间：0.047661s][吞吐率：20.98req/s] [内存消耗：1,322.52kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:46:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index/log/index
+[ info ] www.sunly.com/index/log/index [运行时间：0.055441s][吞吐率：18.04req/s] [内存消耗：1,121.40kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'log',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:46:43+08:00 ] 127.0.0.1 127.0.0.1 GET /index/blog/index
+[ info ] www.sunly.com/index/blog/index [运行时间：0.042880s][吞吐率：23.32req/s] [内存消耗：1,121.35kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'blog',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:47:32+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index
+[ info ] www.sunly.com/admin/index/index [运行时间：0.084806s][吞吐率：11.79req/s] [内存消耗：1,096.69kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpStudy\www\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:47:48+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index
+[ info ] www.sunly.com/admin/index/index [运行时间：0.036402s][吞吐率：27.47req/s] [内存消耗：1,097.02kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpStudy\www\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:48:17+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/index/index
+[ info ] www.sunly.com/blog/index/index [运行时间：0.047015s][吞吐率：21.27req/s] [内存消耗：1,122.20kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'blog',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:50:02+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/index/index
+[ info ] www.sunly.com/blog/index/index [运行时间：0.049976s][吞吐率：20.01req/s] [内存消耗：1,122.50kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'blog',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:50:03+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/index/index
+[ info ] www.sunly.com/blog/index/index [运行时间：0.041941s][吞吐率：23.84req/s] [内存消耗：1,122.50kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'blog',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:50:34+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/index/index
+[ info ] www.sunly.com/blog/index/index [运行时间：0.036342s][吞吐率：27.52req/s] [内存消耗：1,096.98kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'blog',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\blog\controller\Index->index[ D:\phpStudy\www\application\blog\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:51:02+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/index/blog
+[ info ] www.sunly.com/blog/index/blog [运行时间：0.043166s][吞吐率：23.17req/s] [内存消耗：1,123.58kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'blog',
+    1 => 'index',
+    2 => 'blog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:51:09+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/index/blog/get
+[ info ] www.sunly.com/blog/index/blog/get [运行时间：0.046471s][吞吐率：21.52req/s] [内存消耗：1,123.49kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'blog',
+    1 => 'index',
+    2 => 'blog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:51:13+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/index/blog/get/5
+[ info ] www.sunly.com/blog/index/blog/get/5 [运行时间：0.042760s][吞吐率：23.39req/s] [内存消耗：1,123.85kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'blog',
+    1 => 'index',
+    2 => 'blog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+  'get' => '5',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:51:23+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/index/blog
+[ info ] www.sunly.com/blog/index/blog [运行时间：0.056232s][吞吐率：17.78req/s] [内存消耗：1,123.47kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'blog',
+    1 => 'index',
+    2 => 'blog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:51:28+08:00 ] 127.0.0.1 127.0.0.1 GET /blog//blog
+[ info ] www.sunly.com/blog//blog [运行时间：0.045286s][吞吐率：22.08req/s] [内存消耗：1,121.25kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'blog',
+    1 => 'blog',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:51:31+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/blog
+[ info ] www.sunly.com/blog/blog [运行时间：0.045141s][吞吐率：22.15req/s] [内存消耗：1,121.24kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'blog',
+    1 => 'blog',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:51:35+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/blog
+[ info ] www.sunly.com/blog/blog [运行时间：0.048007s][吞吐率：20.83req/s] [内存消耗：1,121.60kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'blog',
+    1 => 'blog',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:51:41+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/index/blog
+[ info ] www.sunly.com/blog/index/blog [运行时间：0.043206s][吞吐率：23.14req/s] [内存消耗：1,123.58kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'blog',
+    1 => 'index',
+    2 => 'blog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:51:49+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/index/get/
+[ info ] www.sunly.com/blog/index/get/ [运行时间：0.046957s][吞吐率：21.30req/s] [内存消耗：1,123.56kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'blog',
+    1 => 'index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:52:48+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/get/
+[ info ] www.sunly.com/blog/get/ [运行时间：0.050357s][吞吐率：19.86req/s] [内存消耗：1,129.88kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'blog',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'get',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:52:51+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/get/
+[ info ] www.sunly.com/blog/get/ [运行时间：0.037559s][吞吐率：26.62req/s] [内存消耗：1,130.27kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'blog',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'get',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:53:04+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/5/
+[ info ] www.sunly.com/blog/5/ [运行时间：0.042939s][吞吐率：23.29req/s] [内存消耗：1,129.88kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'blog',
+    2 => 'get',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:55:45+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/index/get/
+[ info ] www.sunly.com/blog/index/get/ [运行时间：0.055997s][吞吐率：17.86req/s] [内存消耗：1,130.00kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'blog',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'index',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:56:32+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/index/get/
+[ info ] www.sunly.com/blog/index/get/ [运行时间：0.044303s][吞吐率：22.57req/s] [内存消耗：1,130.29kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'blog',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'index',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:56:33+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/index/get/
+[ info ] www.sunly.com/blog/index/get/ [运行时间：0.042166s][吞吐率：23.72req/s] [内存消耗：1,130.29kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'blog',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'index',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T20:56:49+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/index/get/
+[ info ] www.sunly.com/blog/index/get/ [运行时间：0.036929s][吞吐率：27.08req/s] [内存消耗：1,130.29kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'blog',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'index',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T21:00:45+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/index/get/
+[ info ] www.sunly.com/blog/index/get/ [运行时间：0.061596s][吞吐率：16.23req/s] [内存消耗：1,130.30kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'blog',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'index',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T21:01:13+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/index/get/
+[ info ] www.sunly.com/blog/index/get/ [运行时间：0.051938s][吞吐率：19.25req/s] [内存消耗：1,123.63kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'blog',
+    1 => 'index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T21:01:27+08:00 ] 192.168.1.103 93.174.93.218 GET http://httpheader.net/
+[ info ] httpheader.nethttp://httpheader.net/ [运行时间：0.089115s][吞吐率：11.22req/s] [内存消耗：1,312.29kb] [文件加载：44]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'accept-charset' => 'ISO-8859-1,utf-8;q=0.7,*;q=0.7',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-gb,en;q=0.5',
+  'proxy-connection' => 'Keep-Alive',
+  'accept-encoding' => 'deflate, gzip',
+  'host' => 'httpheader.net',
+  'user-agent' => 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.28) Gecko/20120306 Firefox/3.6.28 (.NET CLR 3.5.30729)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpStudy\www\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T21:01:40+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/index/get/
+[ info ] www.sunly.com/blog/index/get/ [运行时间：0.043615s][吞吐率：22.93req/s] [内存消耗：1,123.63kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'blog',
+    1 => 'index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T21:01:48+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/index/get/
+[ info ] www.sunly.com/blog/index/get/ [运行时间：0.036614s][吞吐率：27.31req/s] [内存消耗：1,098.09kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'blog',
+    1 => 'index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\blog\controller\index->get[ D:\phpStudy\www\application\blog\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T21:02:10+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/index/get/
+[ info ] www.sunly.com/blog/index/get/ [运行时间：0.045037s][吞吐率：22.20req/s] [内存消耗：1,116.33kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'blog',
+    1 => 'index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:id[D:\phpStudy\www\thinkphp\library\think\App.php:281]
+---------------------------------------------------------------
+[ 2017-07-03T21:02:13+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/index/get/2
+[ info ] www.sunly.com/blog/index/get/2 [运行时间：0.050281s][吞吐率：19.89req/s] [内存消耗：1,116.05kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'blog',
+    1 => 'index',
+    2 => 'get',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:id[D:\phpStudy\www\thinkphp\library\think\App.php:281]
+---------------------------------------------------------------
+[ 2017-07-03T21:03:09+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/6
+[ info ] www.sunly.com/blog/6 [运行时间：0.051740s][吞吐率：19.33req/s] [内存消耗：1,106.62kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'blog',
+    1 => 'index',
+    2 => 'get',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ RUN ] app\blog\controller\index->get[ D:\phpStudy\www\application\blog\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T21:04:19+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/2015/05
+[ info ] www.sunly.com/blog/2015/05 [运行时间：0.045447s][吞吐率：22.00req/s] [内存消耗：1,106.95kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'blog',
+    1 => 'index',
+    2 => 'archive',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+  'year' => '2015',
+  'month' => '05',
+)
+[ info ] [ RUN ] app\blog\controller\index->archive[ D:\phpStudy\www\application\blog\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T21:04:22+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/ddfdsfds
+[ info ] www.sunly.com/blog/ddfdsfds [运行时间：0.041014s][吞吐率：24.38req/s] [内存消耗：1,106.70kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'blog',
+    1 => 'index',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'ddfdsfds',
+)
+[ info ] [ RUN ] app\blog\controller\index->read[ D:\phpStudy\www\application\blog\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T21:04:29+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/32ddfdsfds
+[ info ] www.sunly.com/blog/32ddfdsfds [运行时间：0.039324s][吞吐率：25.43req/s] [内存消耗：1,106.84kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'blog',
+    1 => 'index',
+    2 => 'read',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+  'name' => '32ddfdsfds',
+)
+[ info ] [ RUN ] app\blog\controller\index->read[ D:\phpStudy\www\application\blog\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T21:04:33+08:00 ] 127.0.0.1 127.0.0.1 GET /blog/32
+[ info ] www.sunly.com/blog/32 [运行时间：0.042133s][吞吐率：23.73req/s] [内存消耗：1,106.58kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'blog',
+    1 => 'index',
+    2 => 'get',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '32',
+)
+[ info ] [ RUN ] app\blog\controller\index->get[ D:\phpStudy\www\application\blog\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T21:07:01+08:00 ] 127.0.0.1 127.0.0.1 GET /blog-2017-06
+[ info ] www.sunly.com/blog-2017-06 [运行时间：0.050554s][吞吐率：19.78req/s] [内存消耗：1,106.78kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'blog',
+    1 => 'index',
+    2 => 'archive',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+  'year' => '2017',
+  'month' => '06',
+)
+[ info ] [ RUN ] app\blog\controller\index->archive[ D:\phpStudy\www\application\blog\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T21:09:33+08:00 ] 127.0.0.1 127.0.0.1 GET /blog-2017-06
+[ info ] www.sunly.com/blog-2017-06 [运行时间：0.045267s][吞吐率：22.09req/s] [内存消耗：1,107.14kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'blog',
+    1 => 'index',
+    2 => 'archive',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+  'year' => '2017',
+  'month' => '06',
+)
+[ info ] [ RUN ] app\blog\controller\index->archive[ D:\phpStudy\www\application\blog\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T21:09:36+08:00 ] 127.0.0.1 127.0.0.1 GET /blog-2017-06.html
+[ info ] www.sunly.com/blog-2017-06.html [运行时间：0.045332s][吞吐率：22.06req/s] [内存消耗：1,106.88kb] [文件加载：38]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'blog',
+    1 => 'index',
+    2 => 'archive',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o25gm2t0iohvbsberprsija772; pgv_pvi=4720110592; pgv_si=s6316595200',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'connection' => 'close',
+  'host' => 'www.sunly.com',
+)
+[ info ] [ PARAM ] array (
+  'year' => '2017',
+  'month' => '06',
+)
+[ info ] [ RUN ] app\blog\controller\index->archive[ D:\phpStudy\www\application\blog\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T21:26:51+08:00 ] 192.168.1.103 212.237.12.138 GET /muieblackcat
+[ info ] 58.252.85.149/muieblackcat [运行时间：0.578958s][吞吐率：1.73req/s] [内存消耗：1,125.58kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muieblackcat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => '58.252.85.149',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-us',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T21:26:52+08:00 ] 192.168.1.103 212.237.12.138 GET //phpMyAdmin/scripts/setup.php
+[ info ] 58.252.85.149//phpMyAdmin/scripts/setup.php [运行时间：0.035617s][吞吐率：28.08req/s] [内存消耗：1,125.81kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin',
+    1 => 'scripts',
+    2 => 'setup.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => '58.252.85.149',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-us',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T21:26:53+08:00 ] 192.168.1.103 212.237.12.138 GET //phpmyadmin/scripts/setup.php
+[ info ] 58.252.85.149//phpmyadmin/scripts/setup.php [运行时间：0.034129s][吞吐率：29.30req/s] [内存消耗：1,125.81kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phpMyAdmin',
+    1 => 'scripts',
+    2 => 'setup.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => '58.252.85.149',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-us',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T21:26:54+08:00 ] 192.168.1.103 212.237.12.138 GET //pma/scripts/setup.php
+[ info ] 58.252.85.149//pma/scripts/setup.php [运行时间：0.034768s][吞吐率：28.76req/s] [内存消耗：1,125.75kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pma',
+    1 => 'scripts',
+    2 => 'setup.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => '58.252.85.149',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-us',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T21:26:56+08:00 ] 192.168.1.103 212.237.12.138 GET //myadmin/scripts/setup.php
+[ info ] 58.252.85.149//myadmin/scripts/setup.php [运行时间：0.035966s][吞吐率：27.80req/s] [内存消耗：1,125.80kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'myadmin',
+    1 => 'scripts',
+    2 => 'setup.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => '58.252.85.149',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-us',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-07-03T21:26:57+08:00 ] 192.168.1.103 212.237.12.138 GET //MyAdmin/scripts/setup.php
+[ info ] 58.252.85.149//MyAdmin/scripts/setup.php [运行时间：0.039304s][吞吐率：25.44req/s] [内存消耗：1,125.80kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\www\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'MyAdmin',
+    1 => 'scripts',
+    2 => 'setup.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => '58.252.85.149',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'en-us',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
