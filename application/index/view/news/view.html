@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+ <head> 
+  <title>{$ThisName}-{$ComName}</title> 
+  <meta name="keywords" content="{$keywords}">
+  <meta name="description" content="{$Descriptions}">
+  {include file="./application/index/view/index/page_css.html"/}
+ </head> 
+ <body> 
+  {include file="./application/index/view/index/page_header.html"/}
+  <section class="hot-page2-alp hot-page2-pa-sp-top"> 
+   <div class="container"> 
+   <div class="rows inner_banner bg-none"> 
+    <div class="container"> 
+     <h2>{$ThisName}</h2>
+     <ul>
+      <li><a href="/">首页</a></li>
+      <li><i class="fa fa-angle-right" aria-hidden="true"></i> </li>
+      <li><a href="/newslist.html" class="bread-acti">新闻中心</a></li>
+     </ul> 
+     <p>{$Descriptions}</p> 
+    </div> 
+   </div> 
+  
+    <div class="row"> 
+     <div class="hot-page2-alp-con"> 
+      <!--LEFT LISTINGS--> 
+      <div class="col-md-3 hot-page2-alp-con-left"> 
+       <!--PART 1 : LEFT LISTINGS--> 
+       <div class="hot-page2-alp-con-left-1"> 
+        <h3>新闻分类</h3> 
+       </div> 
+       <!--PART 2 : LEFT LISTINGS--> 
+       <div class="hot-page2-hom-pre hot-page2-alp-left-ner-notb"> 
+        <ul> 
+         {volist name="nslist" id="vo"} 
+         <li> <a href="/newslist/{$vo.ID}.html"> 
+           <div class="hot-page2-hom-pre-1 hot-page2-alp-cl-1-1"> 
+            {if condition="($getid eq $vo.ID)"}
+            <img src="__PUBLIC__/images/tick.png" alt="" /> 
+            {else}
+            <img src="__PUBLIC__/images/untick.png" alt="" /> 
+            {/if}
+           </div> 
+           <div class="hot-page2-hom-pre-2 hot-page2-alp-cl-1-2"> 
+            <h5>{$vo.SortNamech}</h5> 
+           </div> 
+           </a> </li> 
+           {/volist}
+        </ul> 
+       </div> 
+       {include file="./application/index/view/index/page_left.html"/}
+      </div> 
+      <!--END LEFT LISTINGS--> 
+      <!--RIGHT LISTINGS--> 
+      <div class="col-md-9 hot-page2-alp-con-right"> 
+       <div class="hot-page2-alp-con-right-1"> 
+        <!--LISTINGS--> 
+        <div class="row"> 
+         <!--LISTINGS START--> 
+         <div class="hot-page2-alp-r-list">
+         
+        <div class="tb-space" style="padding-top:0px;">
+  <section> 
+   <div class="form-spac rows" style="padding-top:55px; padding-bottom:55px;"> 
+    <div class="container" style="width:100%;"> 
+     <!-- TITLE & DESCRIPTION --> 
+     <div class="spe-title col-md-12"> 
+      <h2>{$ThisName}</h2> 
+      <div class="title-line">
+       <div class="tl-1"></div>
+       <div class="tl-2"></div>
+       <div class="tl-3"></div>
+      </div> 
+      <p>发布时间：{$addtime}&nbsp;&nbsp;来源：{$ComName}</p>
+     </div> 
+     <div class="col-md-12 col-sm-12 col-xs-12 wow fadeInLeft" data-wow-duration="1s"> 
+       {$content}
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+        </div>
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <!--END RIGHT LISTINGS--> 
+     </div> 
+    </div> 
+  
+   </div> 
+  </section> 
+  {include file="./application/index/view/index/page_footer.html"/}
+ </body>
+</html>

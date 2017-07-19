@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+ <head> 
+  <meta charset="utf-8" /> 
+  <title>{$ThisName}-{$ComName}</title> 
+  <meta name="keywords" content="{$keywords}">
+  <meta name="description" content="{$Descriptions}">
+  {include file="./application/index/view/index/page_css.html"/}
+ </head> 
+<body> 
+  {include file="./application/index/view/index/page_header.html"/}
+  <section> 
+   <div class="form form-spac rows"> 
+    <div class="container"> 
+     <!-- TITLE & DESCRIPTION --> 
+     <div class="spe-title col-md-12"> 
+      <h2>Thinkphp网站项目研究 <span>联系方式</span></h2> 
+      <div class="title-line">
+       <div class="tl-1"></div>
+       <div class="tl-2"></div>
+       <div class="tl-3"></div>
+      </div> 
+      <p>World's leading tour and travels Booking website,Over 30,000 packages worldwide. Book travel packages and enjoy your holidays with distinctive experience</p>
+     </div> 
+     <div class="col-md-6 col-sm-6 col-xs-12 form_1 wow fadeInLeft" data-wow-duration="1s"> 
+      <!--====== THANK YOU MESSAGE ==========--> 
+      <div class="succ_mess">
+       Thank you for contacting us we will get back to you soon.
+      </div> 
+      <form method="post" action="/index/message/send/"> 
+       <ul> 
+        <li> <input type="text" name="Linkman" value="" id="Linkman" placeholder="姓名" required="" /> </li> 
+        <li> <input type="tel" name="Telephone" value="" id="Telephone" placeholder="电话" required="" /> </li> 
+        <li> <input type="email" name="Email" value="" id="Email" placeholder="邮箱" required="" /> </li> 
+        <li> <input type="text" name="MesName" value="" id="MesName" placeholder="主题" required="" /> </li> 
+        <li> <input type="text" name="QQ" value="" id="QQ" placeholder="QQ" required="" /> </li> 
+        <li> <input type="text" name="Address" value="" id="Address" placeholder="地址" required="" /> </li> 
+        <li> <textarea name="Content" cols="40" rows="3" id="Content" placeholder="咨询/建议内容"></textarea><input type="hidden" name="AddTime" value="{$messtime}"></li> 
+        <li> <input type="submit" value="发送"/> </li> 
+       </ul> 
+      </form> 
+     </div> 
+     <!--====== COMMON NOTICE ==========--> 
+     <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInRight" data-wow-duration="1s"> 
+      <div class="rows book_poly"> 
+       <h3>{$ComName}</h3> 
+       <p>{$Descriptions}</p> 
+       {$content}
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  {include file="./application/index/view/index/page_footer.html"/}
+ </body>
+</html>

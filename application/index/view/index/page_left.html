@@ -1,0 +1,39 @@
+       <!--PART 4 : LEFT LISTINGS--> 
+       <div class="hot-page2-alp-l3 hot-page2-alp-l-com"> 
+        <h4><i class="fa fa-map-marker" aria-hidden="true"></i> 最新文章</h4> 
+       <div class="hot-page2-hom-pre hot-page2-alp-left-ner-notb"> 
+          <ul> 
+          {volist name="nlist" id="vo"}
+         <li> <a href="/news/{$vo.ID}"> 
+           <div class="hot-page2-hom-pre-2 hot-page2-alp-cl-1-2" style="width:100%;"> 
+            <h5>{$vo.NewsNamech}</h5> 
+            <span>{$vo.SeoDescriptionch}</span> 
+           </div> 
+           </a> </li> 
+           {/volist}
+          </ul> 
+        </div> 
+       </div> 
+       <!--END PART 4 : LEFT LISTINGS--> 
+       <!--PART 5 : LEFT LISTINGS--> 
+       <div class="hot-page2-alp-l3 hot-page2-alp-l-com"> 
+        <h4><i class="fa fa-dollar" aria-hidden="true"></i> 推荐产品</h4> 
+       <div class="hot-page2-hom-pre hot-page2-alp-left-ner-notb leftpro"> 
+          <ul> 
+          {volist name="plist" id="vo" mod="2"}
+          <li style="width:48%; {eq name="mod" value="0"}float:right;{/eq} height:155px; border-bottom:none;">
+       <div class="v_place_img"> 
+        <a href="/product/{$vo.ID}"><img src="{$vo.SmallPic}" alt="Tour Booking" title="{$vo.ProductNamech}" /></a> 
+       </div> 
+       <!-- TOUR TITLE & ICONS --> 
+       <div class="b_pack rows" style="width:100%;"> 
+        <!-- TOUR TITLE --> 
+        <div> 
+         <h4><a href="/product/{$vo.ID}" style="font-size:12px;">{$vo.ProductNamech}</a></h4> 
+        </div> 
+       </div> 
+            </li> 
+            {/volist} 
+          </ul> 
+        </div> 
+       </div> 

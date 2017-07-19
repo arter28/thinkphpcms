@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>Proton - Admin Template</title>
+
+		{include file="./application/admin/view/index/page_googlefont.html"/}
+
+		<!-- Favicon and touch icons -->
+		<link rel="shortcut icon" href="__PUBLIC__/assets/ico/favicon.ico" type="image/x-icon" />
+
+	    <!-- Css files -->
+	    <link href="__PUBLIC__/assets/css/bootstrap.min.css" rel="stylesheet">
+		<link href="__PUBLIC__/assets/css/jquery.mmenu.css" rel="stylesheet">
+		<link href="__PUBLIC__/assets/css/font-awesome.min.css" rel="stylesheet">
+		<link href="__PUBLIC__/assets/plugins/jquery-ui/css/jquery-ui-1.10.4.min.css" rel="stylesheet">
+	    <link href="__PUBLIC__/assets/css/style.min.css" rel="stylesheet">
+		<link href="__PUBLIC__/assets/css/add-ons.min.css" rel="stylesheet">
+		<script type="text/javascript" charset="utf-8" src="/ueditor/ueditor.config.js"></script>
+		<script type="text/javascript" charset="utf-8" src="/ueditor/ueditor.all.min.js"> </script>
+		<script type="text/javascript" charset="utf-8" src="/ueditor/lang/zh-cn/zh-cn.js"></script>
+	</head>
+</head>
+
+<body>
+{include file="./application/admin/view/index/page_top.html"/}
+	
+	<div class="container-fluid content">
+	
+		<div class="row">
+
+			{include file="./application/admin/view/index/page_menu.html"/}
+						
+		<!-- start: Content -->
+		<div class="main ">
+		
+			<div class="row">
+				<div class="col-lg-12">
+					<h3 class="page-header"><i class="fa fa-tags"></i>添加分类</h3>
+					<ol class="breadcrumb">
+						<li><i class="fa fa-home"></i><a href="/admin/index/index/">首页</a></li>
+						<li><i class="fa fa-th"></i><a href="#">产品管理</a></li>
+						<li><i class="fa fa-sitemap"></i><a href="#">添加分类</a></li>
+					</ol>
+				</div>
+			</div>
+			
+			<div class="row">
+				
+				<div class="col-lg-12">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h2><i class="fa fa-tags red"></i><strong>添加分类</strong></h2>
+						</div>
+						<div class="panel-body">
+							
+							<div id="wizard1" class="wizard-type1">
+								<script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+								<script>
+                                    var app = angular.module('myApp', []);
+                                    app.controller('registerCtrl', function($scope) {
+                                        $scope.Sequence = "99";
+                                    });
+								</script>
+								<div ng-app="myApp" ng-controller="registerCtrl">
+								<form class="form-horizontal" name="registerForm" method="post" action="/admin/news/savesortadd" novalidate>
+								<div class="tab-content">
+								    <div class="tab-pane" style="display: block;">
+											<div class="form-group">
+							                    <label for="SortNamech">标题</label>
+												<input type="text" id="SortNamech" name="SortNamech" class="form-control" value="" ng-model="SortNamech" required>
+												<span style="color: red" ng-show="registerForm.SortNamech.$invalid">
+                                            <span ng-show="registerForm.SortNamech.$error.required">*请输入标题</span>
+							                </div>
+										<div class="form-group">
+											<label for="SeoKeywordsch">关键词</label>
+											<input type="text" id="SeoKeywordsch" name="SeoKeywordsch" class="form-control" value="" ng-model="SeoKeywordsch" required>
+											<span style="color: red" ng-show="registerForm.SeoKeywordsch.$invalid">
+                                            <span ng-show="registerForm.SeoKeywordsch.$error.required">*请输入关键词</span>
+										</div>
+										<div class="form-group">
+											<label for="SeoDescriptionch">描述</label>
+											<textarea class="form-control limitTextarea" maxlength="250" rows="3" id="SeoDescriptionch" name="SeoDescriptionch" ng-model="SeoDescriptionch" required></textarea>
+											<span style="color: red" ng-show="registerForm.SeoDescriptionch.$invalid">
+                                            <span ng-show="registerForm.SeoDescriptionch.$error.required">*请输入描述</span>
+										</div>
+										<div class="form-group">
+											<label for="ParentID">分类</label>
+											<select id="ParentID" name="ParentID" class="form-control">
+												<option value="0">一级分类</option>
+												{volist name="alist" id="vo"}
+												<option value="{$vo.ID}">{eq name="vo.Count" value="2"}-- {/eq}{eq name="vo.Count" value="3"}---- {/eq}{$vo.SortNamech}</option>
+												{/volist}
+											</select>
+										</div>
+										<div class="form-group">
+											<label for="Sequence">排序</label>
+											<input type="text" class="form-control" value="" name="Sequence" id="Sequence" placeholder="请输入排序号..." ng-model="Sequence" required>
+										</div>
+								    </div>
+
+								</div>
+								
+								<div class="actions">
+									<input type="button" class="btn btn-default button-previous" name="prev" value="Prev" style="visibility: hidden;"/>
+									<input type="submit" class="btn btn-primary button-finish pull-right" name="finish" value="修改" ng-disabled="registerForm.AboutNamech.$invalid || registerForm.SeoKeywordsch.$invalid || registerForm.SeoDescriptionch.$invalid"/>
+								</div>
+								</form>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+					
+				</div><!--/col-->
+			</div><!--/row-->
+			
+
+		</div>
+		<!-- end: Content -->
+		<br><br><br>
+		
+		
+		
+
+	</div><!--/container-->
+		
+	
+
+	<div class="clearfix"></div>
+	
+		
+	<!-- start: JavaScript-->
+	<!--[if !IE]>-->
+
+			<script src="__PUBLIC__/assets/js/jquery-2.1.1.min.js"></script>
+
+	<!--<![endif]-->
+
+	<!--[if IE]>
+	
+		<script src="__PUBLIC__/assets/js/jquery-1.11.1.min.js"></script>
+	
+	<![endif]-->
+
+	<!--[if !IE]>-->
+
+		<script type="text/javascript">
+			window.jQuery || document.write("<script src='__PUBLIC__/assets/js/jquery-2.1.1.min.js'>"+"<"+"/script>");
+		</script>
+
+	<!--<![endif]-->
+
+	<!--[if IE]>
+	
+		<script type="text/javascript">
+	 	window.jQuery || document.write("<script src='__PUBLIC__/assets/js/jquery-1.11.1.min.js'>"+"<"+"/script>");
+		</script>
+		
+	<![endif]-->
+	<script src="__PUBLIC__/assets/js/jquery-migrate-1.2.1.min.js"></script>
+	<script src="__PUBLIC__/assets/js/bootstrap.min.js"></script>
+	
+	
+	<!-- page scripts -->
+	<script src="__PUBLIC__/assets/plugins/jquery-ui/js/jquery-ui-1.10.4.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/chosen/js/chosen.jquery.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/autosize/jquery.autosize.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/placeholder/jquery.placeholder.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/wizard/jquery.bootstrap.wizard.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/maskedinput/jquery.maskedinput.min.js"></script>
+	
+	<!-- theme scripts -->
+	<script src="__PUBLIC__/assets/js/SmoothScroll.js"></script>
+	<script src="__PUBLIC__/assets/js/jquery.mmenu.min.js"></script>
+	<script src="__PUBLIC__/assets/js/core.min.js"></script>
+	
+	<!-- inline scripts related to this page -->
+	<script src="__PUBLIC__/assets/js/pages/form-wizard.js"></script>
+	
+	<!-- end: JavaScript-->
+	
+</body>
+</html>

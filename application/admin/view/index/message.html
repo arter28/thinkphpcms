@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>Proton - Admin Template</title>
+
+		{include file="./application/admin/view/index/page_googlefont.html"/}
+
+		<!-- Favicon and touch icons -->
+		<link rel="shortcut icon" href="__PUBLIC__/assets/ico/favicon.ico" type="image/x-icon" />
+
+	    <!-- Css files -->
+	    <link href="__PUBLIC__/assets/css/bootstrap.min.css" rel="stylesheet">
+		<link href="__PUBLIC__/assets/css/jquery.mmenu.css" rel="stylesheet">
+		<link href="__PUBLIC__/assets/css/font-awesome.min.css" rel="stylesheet">
+		<link href="__PUBLIC__/assets/plugins/jquery-ui/css/jquery-ui-1.10.4.min.css" rel="stylesheet">
+	    <link href="__PUBLIC__/assets/css/style.min.css" rel="stylesheet">
+		<link href="__PUBLIC__/assets/css/add-ons.min.css" rel="stylesheet">
+	</head>
+</head>
+
+<body>
+{include file="./application/admin/view/index/page_top.html"/}
+	
+	<div class="container-fluid content">
+	
+		<div class="row">
+
+			{include file="./application/admin/view/index/page_menu.html"/}
+						
+		<!-- start: Content -->
+			<div class="main sidebar-minified">
+
+				<div class="row">
+					<div class="col-lg-12">
+						<h3 class="page-header"><i class="fa fa-table"></i>咨询反馈</h3>
+						<ol class="breadcrumb">
+							<li><i class="fa fa-home"></i><a href="/admin/index/index">首页</a></li>
+							<li><i class="fa fa-th"></i>咨询反馈</li>
+						</ol>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h2><i class="fa fa-table red"></i><span class="break"></span><strong>所有留言</strong></h2>
+							</div>
+							<div class="panel-body">
+								<table class="table">
+									<thead>
+									<tr>
+										<th>ID</th>
+										<th>姓名</th>
+										<th>标题</th>
+										<th>时间</th>
+										<th>操作</th>
+									</tr>
+									</thead>
+									<tbody>
+									{volist name="alist" id="vo"}
+									<tr>
+										<td>{$vo.ID}</td>
+										<td>{$vo.Linkman}</td>
+										<td>{$vo.MesName}</td>
+										<td>{$vo.AddTime}</td>
+										<td>
+											{if($vo.ViewFlagch)}
+											<a href="/admin/index/messageview/{$vo.ID}"><span class="label label-success">已读</span></a>
+											{else}
+											<a href="/admin/index/messageview/{$vo.ID}"><span class="label label-primary">未读</span></a>
+											{/if}
+											<a href="/admin/index/messagedel/{$vo.ID}" onclick='return confirm("真的要删除?不可恢复!");'><span class="label label-danger">删除</span></a>
+										</td>
+									</tr>
+									{/volist}
+									</tbody>
+								</table>
+								<div style="width:100%; display:table;"><center>{$alist->render()}</center></div>
+							</div>
+						</div>
+					</div><!--/col-->
+				</div><!--/row-->
+			</div>
+		<!-- end: Content -->
+		<br><br><br>
+		
+		
+		
+
+	</div><!--/container-->
+		
+	
+
+	<div class="clearfix"></div>
+	
+		
+	<!-- start: JavaScript-->
+	<!--[if !IE]>-->
+
+			<script src="__PUBLIC__/assets/js/jquery-2.1.1.min.js"></script>
+
+	<!--<![endif]-->
+
+	<!--[if IE]>
+	
+		<script src="__PUBLIC__/assets/js/jquery-1.11.1.min.js"></script>
+	
+	<![endif]-->
+
+	<!--[if !IE]>-->
+
+		<script type="text/javascript">
+			window.jQuery || document.write("<script src='__PUBLIC__/assets/js/jquery-2.1.1.min.js'>"+"<"+"/script>");
+		</script>
+
+	<!--<![endif]-->
+
+	<!--[if IE]>
+	
+		<script type="text/javascript">
+	 	window.jQuery || document.write("<script src='__PUBLIC__/assets/js/jquery-1.11.1.min.js'>"+"<"+"/script>");
+		</script>
+		
+	<![endif]-->
+	<script src="__PUBLIC__/assets/js/jquery-migrate-1.2.1.min.js"></script>
+	<script src="__PUBLIC__/assets/js/bootstrap.min.js"></script>
+	
+	
+	<!-- page scripts -->
+	<script src="__PUBLIC__/assets/plugins/jquery-ui/js/jquery-ui-1.10.4.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/chosen/js/chosen.jquery.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/autosize/jquery.autosize.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/placeholder/jquery.placeholder.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/wizard/jquery.bootstrap.wizard.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/maskedinput/jquery.maskedinput.min.js"></script>
+	
+	<!-- theme scripts -->
+	<script src="__PUBLIC__/assets/js/SmoothScroll.js"></script>
+	<script src="__PUBLIC__/assets/js/jquery.mmenu.min.js"></script>
+	<script src="__PUBLIC__/assets/js/core.min.js"></script>
+	
+	<!-- inline scripts related to this page -->
+	<script src="__PUBLIC__/assets/js/pages/form-wizard.js"></script>
+	
+	<!-- end: JavaScript-->
+	
+</body>
+</html>

@@ -1,0 +1,203 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>Proton - Admin Template</title>
+
+		{include file="./application/admin/view/index/page_googlefont.html"/}
+
+		<!-- Favicon and touch icons -->
+		<link rel="shortcut icon" href="__PUBLIC__/assets/ico/favicon.ico" type="image/x-icon" />
+
+	    <!-- Css files -->
+	    <link href="__PUBLIC__/assets/css/bootstrap.min.css" rel="stylesheet">
+		<link href="__PUBLIC__/assets/css/jquery.mmenu.css" rel="stylesheet">
+		<link href="__PUBLIC__/assets/css/font-awesome.min.css" rel="stylesheet">
+		<link href="__PUBLIC__/assets/plugins/jquery-ui/css/jquery-ui-1.10.4.min.css" rel="stylesheet">
+	    <link href="__PUBLIC__/assets/css/style.min.css" rel="stylesheet">
+		<link href="__PUBLIC__/assets/css/add-ons.min.css" rel="stylesheet">
+	</head>
+</head>
+
+<body>
+{include file="./application/admin/view/index/page_top.html"/}
+	
+	<div class="container-fluid content">
+	
+		<div class="row">
+
+			{include file="./application/admin/view/index/page_menu.html"/}
+						
+		<!-- start: Content -->
+		<div class="main ">
+		
+			<div class="row">
+				<div class="col-lg-12">
+					<h3 class="page-header"><i class="fa fa-tags"></i>网站设置</h3>
+					<ol class="breadcrumb">
+						<li><i class="fa fa-home"></i><a href="/admin/index/index/">首页</a></li>
+						<li><i class="fa fa-list-alt"></i><a href="#">网站设置</a></li>
+					</ol>
+				</div>
+			</div>
+			
+			<div class="row">
+				
+				<div class="col-lg-12">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h2><i class="fa fa-tags red"></i><strong>网站设置</strong></h2>
+						</div>
+						<div class="panel-body">
+							
+							<div id="wizard1" class="wizard-type1">
+								<script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+								<script>
+                                    var app = angular.module('myApp', []);
+                                    app.controller('registerCtrl', function($scope) {
+                                        $scope.SiteTitlech = "{$SiteTitlech}";
+                                        $scope.Keywordsch = "{$Keywordsch}";
+                                        $scope.Descriptionsch = "{$Descriptionsch}";
+                                        $scope.comnamech = "{$comnamech}";
+                                        $scope.Telephone = "{$Telephone}";
+                                        $scope.Email = "{$Email}";
+                                        $scope.QQ1 = "{$QQ1}";
+                                    });
+								</script>
+								<div ng-app="myApp" ng-controller="registerCtrl">
+								<form class="form-horizontal" name="registerForm" method="post" action="/admin/index/savesite" novalidate>
+								<div class="tab-content">
+								    <div class="tab-pane" style="display: block;">
+											<div class="form-group">
+							                    <label for="SiteTitlech">网站标题</label>
+												<input type="text" id="SiteTitlech" name="SiteTitlech" class="form-control" value="" ng-model="SiteTitlech" required>
+												<span style="color: red" ng-show="registerForm.SiteTitlech.$invalid">
+                                            <span ng-show="registerForm.SiteTitlech.$error.required">*请输入网站标题</span>
+							                </div>
+										<div class="form-group">
+											<label for="Keywordsch">关键词</label>
+											<input type="text" id="Keywordsch" name="Keywordsch" class="form-control" value="" ng-model="Keywordsch" required>
+											<span style="color: red" ng-show="registerForm.Keywordsch.$invalid">
+                                            <span ng-show="registerForm.Keywordsch.$error.required">*请输入关键词</span>
+										</div>
+										<div class="form-group">
+											<label for="Descriptionsch">描述</label>
+											<textarea class="form-control limitTextarea" maxlength="250" rows="3" id="Descriptionsch" name="Descriptionsch" ng-model="Descriptionsch" required></textarea>
+											<span style="color: red" ng-show="registerForm.Descriptionsch.$invalid">
+                                            <span ng-show="registerForm.Descriptionsch.$error.required">*请输入描述</span>
+										</div>
+										<div class="form-group">
+											<label for="comnamech">公司名</label>
+											<input type="text" id="comnamech" name="comnamech" class="form-control" value="" ng-model="comnamech" required>
+											<span style="color: red" ng-show="registerForm.comnamech.$invalid">
+                                            <span ng-show="registerForm.comnamech.$error.required">*请输入公司名</span>
+										</div>
+										<div class="form-group">
+											<label for="Telephone">电话</label>
+											<input type="text" id="Telephone" name="Telephone" class="form-control" value="" ng-model="Telephone" required>
+											<span style="color: red" ng-show="registerForm.Telephone.$invalid">
+                                            <span ng-show="registerForm.Telephone.$error.required">*请输入电话</span>
+                                            </span>
+										</div>
+										<div class="form-group">
+											<label for="Email">邮箱</label>
+											<input type="text" class="form-control" value="" ng-model="Email" name="Email" id="Email" placeholder="请输入电子邮箱..." required>
+											<span style="color:red" ng-show=" registerForm.Email.$invalid">
+                                            <span ng-show="registerForm.Email.$error.required">*请输入邮箱</span>
+												<span ng-show="registerForm.Email.$error.email">*请输入正确的email地址</span>
+                                            </span>
+										</div>
+										<div class="form-group">
+											<label for="QQ1">QQ</label>
+											<input type="text" id="QQ1" name="QQ1" class="form-control" value="">
+										</div>
+								    </div>
+
+								</div>
+								
+								<div class="actions">
+									<input type="button" class="btn btn-default button-previous" name="prev" value="Prev" style="visibility: hidden;"/>
+									<input type="submit" class="btn btn-primary button-finish pull-right" name="finish" value="修改" ng-disabled="registerForm.SiteTitlech.$invalid || registerForm.Keywordsch.$invalid || registerForm.Descriptionsch.$invalid || registerForm.comnamech.$invalid || registerForm.Telephone.$invalid || registerForm.Email.$invalid"/>
+								</div>
+								</form>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+					
+				</div><!--/col-->
+			</div><!--/row-->
+			
+
+		</div>
+		<!-- end: Content -->
+		<br><br><br>
+		
+		
+		
+
+	</div><!--/container-->
+		
+	
+
+	<div class="clearfix"></div>
+	
+		
+	<!-- start: JavaScript-->
+	<!--[if !IE]>-->
+
+			<script src="__PUBLIC__/assets/js/jquery-2.1.1.min.js"></script>
+
+	<!--<![endif]-->
+
+	<!--[if IE]>
+	
+		<script src="__PUBLIC__/assets/js/jquery-1.11.1.min.js"></script>
+	
+	<![endif]-->
+
+	<!--[if !IE]>-->
+
+		<script type="text/javascript">
+			window.jQuery || document.write("<script src='__PUBLIC__/assets/js/jquery-2.1.1.min.js'>"+"<"+"/script>");
+		</script>
+
+	<!--<![endif]-->
+
+	<!--[if IE]>
+	
+		<script type="text/javascript">
+	 	window.jQuery || document.write("<script src='__PUBLIC__/assets/js/jquery-1.11.1.min.js'>"+"<"+"/script>");
+		</script>
+		
+	<![endif]-->
+	<script src="__PUBLIC__/assets/js/jquery-migrate-1.2.1.min.js"></script>
+	<script src="__PUBLIC__/assets/js/bootstrap.min.js"></script>
+	
+	
+	<!-- page scripts -->
+	<script src="__PUBLIC__/assets/plugins/jquery-ui/js/jquery-ui-1.10.4.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/chosen/js/chosen.jquery.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/autosize/jquery.autosize.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/placeholder/jquery.placeholder.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/wizard/jquery.bootstrap.wizard.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/maskedinput/jquery.maskedinput.min.js"></script>
+	
+	<!-- theme scripts -->
+	<script src="__PUBLIC__/assets/js/SmoothScroll.js"></script>
+	<script src="__PUBLIC__/assets/js/jquery.mmenu.min.js"></script>
+	<script src="__PUBLIC__/assets/js/core.min.js"></script>
+	
+	<!-- inline scripts related to this page -->
+	<script src="__PUBLIC__/assets/js/pages/form-wizard.js"></script>
+	
+	<!-- end: JavaScript-->
+	
+</body>
+</html>

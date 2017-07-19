@@ -1,0 +1,260 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>Proton - Admin Template</title>
+
+		{include file="./application/admin/view/index/page_googlefont.html"/}
+
+		<!-- Fav and touch icons -->
+		<link rel="shortcut icon" href="__PUBLIC__/assets/ico/favicon.ico" type="image/x-icon" />    
+
+	    <!-- Css files -->
+	    <link href="__PUBLIC__/assets/css/bootstrap.min.css" rel="stylesheet">		
+		<link href="__PUBLIC__/assets/css/jquery.mmenu.css" rel="stylesheet">		
+		<link href="__PUBLIC__/assets/css/font-awesome.min.css" rel="stylesheet">
+		<link href="__PUBLIC__/assets/css/climacons-font.css" rel="stylesheet">
+		<link href="__PUBLIC__/assets/plugins/xcharts/css/xcharts.min.css" rel=" stylesheet">		
+		<link href="__PUBLIC__/assets/plugins/fullcalendar/css/fullcalendar.css" rel="stylesheet">
+		<link href="__PUBLIC__/assets/plugins/morris/css/morris.css" rel="stylesheet">
+		<link href="__PUBLIC__/assets/plugins/jquery-ui/css/jquery-ui-1.10.4.min.css" rel="stylesheet">
+		<link href="__PUBLIC__/assets/plugins/jvectormap/css/jquery-jvectormap-1.2.2.css" rel="stylesheet">	    
+	    <link href="__PUBLIC__/assets/css/style.min.css" rel="stylesheet">
+		<link href="__PUBLIC__/assets/css/add-ons.min.css" rel="stylesheet">		
+
+	</head>
+</head>
+
+<body>
+{include file="./application/admin/view/index/page_top.html"/}
+	
+	<div class="container-fluid content">
+	
+		<div class="row">
+
+			{include file="./application/admin/view/index/page_menu.html"/}
+		
+		<!-- start: Content -->
+		<div class="main">
+		
+			<div class="row">
+				<div class="col-lg-12">
+					<h3 class="page-header"><i class="fa fa-laptop"></i> 系统概况</h3>
+					<ol class="breadcrumb">
+						<li><i class="fa fa-home"></i><a href="/admin/index/index/">首页</a></li>
+						<li><i class="fa fa-laptop"></i>系统概况</li>						  	
+					</ol>
+				</div>
+			</div>
+			
+			<div class="row">
+				
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+					<div class="info-box red-bg">
+						<i class="fa fa-thumbs-o-up"></i>
+						<div class="count">{$indexclick}</div>
+						<div class="title">首页</div>						
+					</div><!--/.info-box-->			
+				</div><!--/.col-->
+				
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+					<div class="info-box green-bg">
+						<i class="fa fa-cubes"></i>
+						<div class="count">{$sumabout}</div>
+						<div class="title">公司简介</div>						
+					</div><!--/.info-box-->			
+				</div><!--/.col-->
+				
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+					<div class="info-box blue-bg">
+						<i class="fa fa-cloud-download"></i>
+						<div class="count">{$sumproduct}</div>
+						<div class="title">产品中心</div>						
+					</div><!--/.info-box-->			
+				</div><!--/.col-->
+				
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+					<div class="info-box magenta-bg">
+						<i class="fa fa-shopping-cart"></i>
+						<div class="count">{$sumnews}</div>
+						<div class="title">新闻中心</div>						
+					</div><!--/.info-box-->			
+				</div><!--/.col-->		
+				
+			</div><!--/.row-->
+			
+				
+			<div class="row">			
+				
+				<div class="col-lg-6 col-md-12">
+					
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h2><i class="fa fa-spinner red"></i><strong>最新产品</strong></h2>
+							<div class="panel-actions">
+								<a href="index.html#" class="btn-minimize"><i class="fa fa-chevron-up"></i></a>
+							</div>
+						</div>
+						<div class="panel-body">
+							<div class="tab-content">
+								<div class="tab-pane active" id="tasks">
+									<table class="table bootstrap-datatable datatable small-font">
+										<thead>
+											  <tr>
+												  <th>ID</th>
+												  <th>图片</th>
+												  <th>名称</th>
+												  <th class="center">操作</th>
+											  </tr>
+										  </thead>   
+										  <tbody>
+										  {volist name="plist" id="vo"}
+											<tr>
+												<td>{$vo.ID}</td>
+												<td><img src="{$vo.SmallPic}" height="60"></td>
+												<td>{$vo.ProductNamech}<br>{$vo.AddTime}</td>
+												<td class="text-center text-info">
+													<a href="/admin/product/edit/{$vo.ID}">修改</a>
+												</td>
+											</tr>
+										  {/volist}
+										</tbody>
+									</table>
+								</div>	
+							</div>
+						</div>
+					</div>
+					
+				</div><!--/col-->
+				<div class="col-lg-6 col-md-12">
+					
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h2><i class="fa fa-spinner red"></i><strong>最新文章</strong></h2>
+							<div class="panel-actions">
+								<a href="index.html#" class="btn-minimize"><i class="fa fa-chevron-up"></i></a>
+							</div>
+						</div>
+						<div class="panel-body">
+							<div class="tab-content">
+								<div class="tab-pane active" id="tasks">
+									<table class="table bootstrap-datatable datatable small-font">
+										<thead>
+										<tr>
+											<th>ID</th>
+											<th>图片</th>
+											<th>名称</th>
+											<th class="center">操作</th>
+										</tr>
+										</thead>
+										<tbody>
+										{volist name="nlist" id="vo"}
+										<tr>
+											<td>{$vo.ID}</td>
+											<td><img src="{$vo.SunlyNetPic}" height="60"></td>
+											<td>{$vo.NewsNamech}<br>{$vo.AddTime}</td>
+											<td class="text-center text-info">
+												<a href="/admin/news/edit/{$vo.ID}">修改</a>
+											</td>
+										</tr>
+										{/volist}
+										</tbody>
+									</table>								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div><!--/col-->
+					
+			</div><!--/row-->	
+
+					
+		</div>
+		<!-- end: Content -->
+		<br><br><br>
+		
+		
+		
+	</div><!--/container-->
+		
+	
+	
+	<div class="clearfix"></div>
+	
+		
+	<!-- start: JavaScript-->
+	<!--[if !IE]>-->
+
+			<script src="__PUBLIC__/assets/js/jquery-2.1.1.min.js"></script>
+
+	<!--<![endif]-->
+
+	<!--[if IE]>
+	
+		<script src="__PUBLIC__/assets/js/jquery-1.11.1.min.js"></script>
+	
+	<![endif]-->
+
+	<!--[if !IE]>-->
+
+		<script type="text/javascript">
+			window.jQuery || document.write("<script src='__PUBLIC__/assets/js/jquery-2.1.1.min.js'>"+"<"+"/script>");
+		</script>
+
+	<!--<![endif]-->
+
+	<!--[if IE]>
+	
+		<script type="text/javascript">
+	 	window.jQuery || document.write("<script src='__PUBLIC__/assets/js/jquery-1.11.1.min.js'>"+"<"+"/script>");
+		</script>
+		
+	<![endif]-->
+	<script src="__PUBLIC__/assets/js/jquery-migrate-1.2.1.min.js"></script>
+	<script src="__PUBLIC__/assets/js/bootstrap.min.js"></script>	
+	
+	
+	<!-- page scripts -->
+	<script src="__PUBLIC__/assets/plugins/jquery-ui/js/jquery-ui-1.10.4.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/touchpunch/jquery.ui.touch-punch.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/moment/moment.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/fullcalendar/js/fullcalendar.min.js"></script>
+	<!--[if lte IE 8]>
+		<script language="javascript" type="text/javascript" src="__PUBLIC__/assets/plugins/excanvas/excanvas.min.js"></script>
+	<![endif]-->
+	<script src="__PUBLIC__/assets/plugins/flot/jquery.flot.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/flot/jquery.flot.pie.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/flot/jquery.flot.stack.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/flot/jquery.flot.resize.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/flot/jquery.flot.time.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/flot/jquery.flot.spline.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/xcharts/js/xcharts.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/autosize/jquery.autosize.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/placeholder/jquery.placeholder.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/datatables/js/jquery.dataTables.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/datatables/js/dataTables.bootstrap.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/raphael/raphael.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/morris/js/morris.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/jvectormap/js/jquery-jvectormap-1.2.2.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/jvectormap/js/jquery-jvectormap-world-mill-en.js"></script>
+	<script src="__PUBLIC__/assets/plugins/jvectormap/js/gdp-data.js"></script>	
+	<script src="__PUBLIC__/assets/plugins/gauge/gauge.min.js"></script>
+	
+	
+	<!-- theme scripts -->
+	<script src="__PUBLIC__/assets/js/SmoothScroll.js"></script>
+	<script src="__PUBLIC__/assets/js/jquery.mmenu.min.js"></script>
+	<script src="__PUBLIC__/assets/js/core.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/d3/d3.min.js"></script>	
+	
+	<!-- inline scripts related to this page -->
+	<script src="__PUBLIC__/assets/js/pages/index.js"></script>	
+	
+	<!-- end: JavaScript-->
+	
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="utf-8" /> 
+  <title>{$ThisName}-{$ComName}</title> 
+  <meta name="keywords" content="{$keywords}">
+  <meta name="description" content="{$Descriptions}">
+  {include file="./application/index/view/index/page_css.html"/}
+ </head> 
+<body> 
+  {include file="./application/index/view/index/page_header.html"/}
+<!--====== HOTELS LIST ==========--> 
+  <section class="hot-page2-alp hot-page2-pa-sp-top"> 
+   <div class="container"> 
+    <div class="row inner_banner bg-none"> 
+     <div class="hot-page2-alp-tit"> 
+      <h1>{$ThisName}</h1>
+      <ul>
+       <li><a href="/">首页</a></li>
+       <li><i class="fa fa-angle-right" aria-hidden="true"></i> </li>
+       <li><a href="#inner-page-title" class="bread-acti">{$ThisName}</a></li>
+      </ul> 
+      <p>{$Descriptions}</p> 
+     </div> 
+    </div> 
+    <div class="row"> 
+     <div class="hot-page2-alp-con"> 
+      <!--LEFT LISTINGS--> 
+      <div class="col-md-3 hot-page2-alp-con-left"> 
+       <!--PART 1 : LEFT LISTINGS--> 
+       <div class="hot-page2-alp-con-left-1"> 
+        <h3>关于我们</h3> 
+       </div> 
+       <!--PART 2 : LEFT LISTINGS--> 
+       <div class="hot-page2-hom-pre hot-page2-alp-left-ner-notb"> 
+        <ul> 
+         {volist name="alist" id="vo"} 
+         <li> <a href="/about/{$vo.ID}.html"> 
+           <div class="hot-page2-hom-pre-1 hot-page2-alp-cl-1-1"> 
+            <img src="__PUBLIC__/images/tick.png" alt="" /> 
+           </div> 
+           <div class="hot-page2-hom-pre-2 hot-page2-alp-cl-1-2"> 
+            <h5>{$vo.AboutNamech}</h5> 
+           </div> 
+           </a> </li> 
+           {/volist}
+        </ul> 
+       </div> 
+       {include file="./application/index/view/index/page_left.html"/}
+      </div> 
+      <!--END LEFT LISTINGS--> 
+      <!--RIGHT LISTINGS--> 
+      <div class="col-md-9 hot-page2-alp-con-right"> 
+       <div class="hot-page2-alp-con-right-1"> 
+        <!--LISTINGS--> 
+        <div class="row"> 
+         <!--LISTINGS START--> 
+         <div class="hot-page2-alp-r-list">
+         
+        <div class="tb-space" style="padding-top:55px;">
+                <div class="col-md-6">
+                    <span class="to-con-1">Company Profile</span>
+                    <h2>{$ThisName}</h2>
+                    <p>{$Descriptions}
+                    </p>
+					<span class="to-con-2" style="font-size:24px;">咨询电话: {$telephone}</span>
+                    <div class="ho-con-cont">
+                        <a href="contact.html" class="to-con-3 link-btn">立即咨询</a>
+                    </div>
+                </div>
+                <div class="col-md-6 ho-vid">
+                    <img src="{$aboutpic}" alt="">
+                </div>
+                <div class="col-md-12" style="margin-top:30px;">
+                {$content}
+                </div>
+        </div>
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <!--END RIGHT LISTINGS--> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  {include file="./application/index/view/index/page_footer.html"/}
+</body>
+</html>

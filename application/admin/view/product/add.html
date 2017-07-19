@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>Proton - Admin Template</title>
+
+		{include file="./application/admin/view/index/page_googlefont.html"/}
+
+		<!-- Favicon and touch icons -->
+		<link rel="shortcut icon" href="__PUBLIC__/assets/ico/favicon.ico" type="image/x-icon" />
+
+	    <!-- Css files -->
+	    <link href="__PUBLIC__/assets/css/bootstrap.min.css" rel="stylesheet">
+		<link href="__PUBLIC__/assets/css/jquery.mmenu.css" rel="stylesheet">
+		<link href="__PUBLIC__/assets/css/font-awesome.min.css" rel="stylesheet">
+		<link href="__PUBLIC__/assets/plugins/jquery-ui/css/jquery-ui-1.10.4.min.css" rel="stylesheet">
+	    <link href="__PUBLIC__/assets/css/style.min.css" rel="stylesheet">
+		<link href="__PUBLIC__/assets/css/add-ons.min.css" rel="stylesheet">
+		<script type="text/javascript" charset="utf-8" src="/ueditor/ueditor.config.js"></script>
+		<script type="text/javascript" charset="utf-8" src="/ueditor/ueditor.all.min.js"> </script>
+		<script type="text/javascript" charset="utf-8" src="/ueditor/lang/zh-cn/zh-cn.js"></script>
+	</head>
+</head>
+
+<body>
+{include file="./application/admin/view/index/page_top.html"/}
+	
+	<div class="container-fluid content">
+	
+		<div class="row">
+
+			{include file="./application/admin/view/index/page_menu.html"/}
+						
+		<!-- start: Content -->
+		<div class="main ">
+		
+			<div class="row">
+				<div class="col-lg-12">
+					<h3 class="page-header"><i class="fa fa-tags"></i>添加产品</h3>
+					<ol class="breadcrumb">
+						<li><i class="fa fa-home"></i><a href="/admin/index/index/">首页</a></li>
+						<li><i class="fa fa-th"></i><a href="#">产品管理</a></li>
+						<li><i class="fa fa-list-alt"></i><a href="#">添加产品</a></li>
+					</ol>
+				</div>
+			</div>
+			
+			<div class="row">
+				
+				<div class="col-lg-12">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h2><i class="fa fa-tags red"></i><strong>添加产品</strong></h2>
+						</div>
+						<div class="panel-body">
+							
+							<div id="wizard1" class="wizard-type1">
+								<script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+								<script>
+                                    var app = angular.module('myApp', []);
+                                    app.controller('registerCtrl', function($scope) {
+                                        $scope.Sequence = "99";
+                                    });
+								</script>
+								<div ng-app="myApp" ng-controller="registerCtrl">
+								<form class="form-horizontal" name="registerForm" method="post" action="/admin/product/saveadd" novalidate>
+								<div class="tab-content">
+								    <div class="tab-pane" style="display: block;">
+											<div class="form-group">
+							                    <label for="ProductNamech">标题</label>
+												<input type="text" id="ProductNamech" name="ProductNamech" class="form-control" value="" ng-model="ProductNamech" required>
+												<span style="color: red" ng-show="registerForm.ProductNamech.$invalid">
+                                            <span ng-show="registerForm.ProductNamech.$error.required">*请输入标题</span>
+							                </div>
+										<div class="form-group">
+											<label for="SeoKeywordsch">关键词</label>
+											<input type="text" id="SeoKeywordsch" name="SeoKeywordsch" class="form-control" value="" ng-model="SeoKeywordsch" required>
+											<span style="color: red" ng-show="registerForm.SeoKeywordsch.$invalid">
+                                            <span ng-show="registerForm.SeoKeywordsch.$error.required">*请输入关键词</span>
+										</div>
+										<div class="form-group">
+											<label for="SeoDescriptionch">描述</label>
+											<textarea class="form-control limitTextarea" maxlength="250" rows="3" id="SeoDescriptionch" name="SeoDescriptionch" ng-model="SeoDescriptionch" required></textarea>
+											<span style="color: red" ng-show="registerForm.SeoDescriptionch.$invalid">
+                                            <span ng-show="registerForm.SeoDescriptionch.$error.required">*请输入描述</span>
+										</div>
+										<div class="form-group">
+											<label for="ParentID">分类</label>
+											<select id="ParentID" name="SortID" class="form-control">
+												{volist name="alist" id="vo"}
+												<option value="{$vo.ID}">{eq name="vo.Count" value="2"}-- {/eq}{eq name="vo.Count" value="3"}---- {/eq}{$vo.SortNamech}</option>
+												{/volist}
+											</select>
+										</div>
+										<div class="form-group">
+											<label for="Contentch">内容</label>
+											<textarea style="height: 300px;" id="Contentch" name="Contentch"></textarea>
+											<script type="text/javascript">
+                                                var ue = UE.getEditor('Contentch');
+											</script>
+										</div>
+										<script src="/kindeditor/kindeditor-min.js"></script>
+										<script>
+                                            KindEditor.ready(function(K) {
+                                                var uploadbutton = K.uploadbutton({
+                                                    button : K('#uploadButton')[0],
+                                                    fieldName : 'imgFile',
+                                                    url: '/kindeditor/php/upload_json.php?dir=image',
+                                                    afterUpload : function(data) {
+                                                        if (data.error === 0) {
+                                                            var url = K.formatUrl(data.url, 'absolute');
+                                                            K('#SmallPic').val(url);
+                                                        } else {
+                                                            alert(data.message);
+                                                        }
+                                                    },
+                                                    afterError : function(str) {
+                                                        alert('自定义错误信息: ' + str);
+                                                    }
+                                                });
+                                                uploadbutton.fileBox.change(function(e) {
+                                                    uploadbutton.submit();
+                                                });
+                                                var uploadbutton2 = K.uploadbutton({
+                                                    button : K('#uploadButton2')[0],
+                                                    fieldName : 'imgFile',
+                                                    url: '/kindeditor/php/upload_json.php?dir=image',
+                                                    afterUpload : function(data) {
+                                                        if (data.error === 0) {
+                                                            var url = K.formatUrl(data.url, 'absolute');
+                                                            K('#BigPic').val(url);
+                                                        } else {
+                                                            alert(data.message);
+                                                        }
+                                                    },
+                                                    afterError : function(str) {
+                                                        alert('自定义错误信息: ' + str);
+                                                    }
+                                                });
+                                                uploadbutton2.fileBox.change(function(e) {
+                                                    uploadbutton2.submit();
+                                                });
+                                            });
+										</script>
+										<style>
+											/* inputbox */
+											.ke-upload-area {
+												position: relative;
+												overflow: hidden;
+												margin: 0;
+												padding: 0;
+												*height: 25px;
+											}
+											.ke-upload-area .ke-button {
+												display:table;
+												cursor:pointer;
+											}
+											.ke-upload-area .ke-upload-file {
+												position: absolute;
+												font-size:inherit;
+												top: 0;
+												left: 0;
+												padding: 0;
+												margin: 3 0 0 0;
+												z-index: 811212;
+												border: 0 none;
+											}
+										</style>
+										<div class="form-group">
+											<label for="SmallPic">缩略图</label>
+											<input type="text" class="form-control" value="" name="SmallPic" id="SmallPic" placeholder="请上传图片...">
+											<input type="button" id="uploadButton" value="上传图片..."/>
+										</div>
+										<div class="form-group">
+											<label for="BigPic">主图</label>
+											<input type="text" class="form-control" value="" name="BigPic" id="BigPic" placeholder="请上传图片...">
+											<input type="button" id="uploadButton2" value="上传图片..."/>
+										</div>
+										<div class="form-group">
+											<label for="Sequence">排序</label>
+											<input type="text" class="form-control" value="" name="Sequence" id="Sequence" placeholder="请输入排序号..." ng-model="Sequence" required>
+										</div>
+								    </div>
+
+								</div>
+								
+								<div class="actions">
+									<input type="button" class="btn btn-default button-previous" name="prev" value="Prev" style="visibility: hidden;"/>
+									<input type="submit" class="btn btn-primary button-finish pull-right" name="finish" value="修改" ng-disabled="registerForm.AboutNamech.$invalid || registerForm.SeoKeywordsch.$invalid || registerForm.SeoDescriptionch.$invalid"/>
+								</div>
+								</form>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+					
+				</div><!--/col-->
+			</div><!--/row-->
+			
+
+		</div>
+		<!-- end: Content -->
+		<br><br><br>
+		
+		
+		
+
+	</div><!--/container-->
+		
+	
+
+	<div class="clearfix"></div>
+	
+		
+	<!-- start: JavaScript-->
+	<!--[if !IE]>-->
+
+			<script src="__PUBLIC__/assets/js/jquery-2.1.1.min.js"></script>
+
+	<!--<![endif]-->
+
+	<!--[if IE]>
+	
+		<script src="__PUBLIC__/assets/js/jquery-1.11.1.min.js"></script>
+	
+	<![endif]-->
+
+	<!--[if !IE]>-->
+
+		<script type="text/javascript">
+			window.jQuery || document.write("<script src='__PUBLIC__/assets/js/jquery-2.1.1.min.js'>"+"<"+"/script>");
+		</script>
+
+	<!--<![endif]-->
+
+	<!--[if IE]>
+	
+		<script type="text/javascript">
+	 	window.jQuery || document.write("<script src='__PUBLIC__/assets/js/jquery-1.11.1.min.js'>"+"<"+"/script>");
+		</script>
+		
+	<![endif]-->
+	<script src="__PUBLIC__/assets/js/jquery-migrate-1.2.1.min.js"></script>
+	<script src="__PUBLIC__/assets/js/bootstrap.min.js"></script>
+	
+	
+	<!-- page scripts -->
+	<script src="__PUBLIC__/assets/plugins/jquery-ui/js/jquery-ui-1.10.4.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/chosen/js/chosen.jquery.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/autosize/jquery.autosize.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/placeholder/jquery.placeholder.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/wizard/jquery.bootstrap.wizard.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/maskedinput/jquery.maskedinput.min.js"></script>
+	
+	<!-- theme scripts -->
+	<script src="__PUBLIC__/assets/js/SmoothScroll.js"></script>
+	<script src="__PUBLIC__/assets/js/jquery.mmenu.min.js"></script>
+	<script src="__PUBLIC__/assets/js/core.min.js"></script>
+	
+	<!-- inline scripts related to this page -->
+	<script src="__PUBLIC__/assets/js/pages/form-wizard.js"></script>
+	
+	<!-- end: JavaScript-->
+	
+</body>
+</html>

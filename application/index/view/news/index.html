@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+ <head> 
+  <title>{$ThisName}-{$ComName}</title> 
+  <meta name="keywords" content="{$keywords}">
+  <meta name="description" content="{$Descriptions}">
+  {include file="./application/index/view/index/page_css.html"/}
+ </head> 
+ <body> 
+  {include file="./application/index/view/index/page_header.html"/}
+  <section class="hot-page2-alp hot-page2-pa-sp-top"> 
+   <div class="container"> 
+   <div class="rows inner_banner bg-none"> 
+    <div class="container"> 
+     <h2>{$ThisName}</h2>
+     <ul>
+      <li><a href="/">首页</a></li>
+      <li><i class="fa fa-angle-right" aria-hidden="true"></i> </li>
+      <li><a href="/newslist.html" class="bread-acti">新闻中心</a></li>
+     </ul> 
+     <p>{$Descriptions}</p> 
+    </div> 
+   </div> 
+  
+    <div class="row"> 
+     <div class="hot-page2-alp-con"> 
+      <!--LEFT LISTINGS--> 
+      <div class="col-md-3 hot-page2-alp-con-left"> 
+       <!--PART 1 : LEFT LISTINGS--> 
+       <div class="hot-page2-alp-con-left-1"> 
+        <h3>新闻分类</h3> 
+       </div> 
+       <!--PART 2 : LEFT LISTINGS--> 
+       <div class="hot-page2-hom-pre hot-page2-alp-left-ner-notb"> 
+        <ul> 
+         {volist name="nslist" id="vo"} 
+         <li> <a href="/newslist/{$vo.ID}.html"> 
+           <div class="hot-page2-hom-pre-1 hot-page2-alp-cl-1-1"> 
+            {if condition="($getid eq $vo.ID)"}
+            <img src="__PUBLIC__/images/tick.png" alt="" /> 
+            {else}
+            <img src="__PUBLIC__/images/untick.png" alt="" /> 
+            {/if}
+           </div> 
+           <div class="hot-page2-hom-pre-2 hot-page2-alp-cl-1-2"> 
+            <h5>{$vo.SortNamech}</h5> 
+           </div> 
+           </a> </li> 
+           {/volist}
+        </ul> 
+       </div> 
+       {include file="./application/index/view/index/page_left.html"/}
+      </div> 
+      <!--END LEFT LISTINGS--> 
+      <!--RIGHT LISTINGS--> 
+      <div class="col-md-9 hot-page2-alp-con-right"> 
+       <div class="hot-page2-alp-con-right-1"> 
+        <!--LISTINGS--> 
+        <div class="row"> 
+         <!--LISTINGS START--> 
+         <div class="hot-page2-alp-r-list">
+         
+        <div class="tb-space" style="padding-top:0px;">
+  <!--====== ALL POST ==========--> 
+  <section> 
+   <section> 
+    <div class="rows inn-page-bg com-colo"> 
+     <div class="container inn-page-con-bg tb-space pad-bot-redu-5" id="inner-page-title" style="width:100%; padding-top:55px;"> 
+      <!--===== POSTS ======--> 
+      <div class="rows"> 
+      {volist name="list" id="news"}
+       <div class="posts"> 
+        <div class="col-md-6 col-sm-6 col-xs-12"> 
+         <a href="/news/{$news.ID}"><img src="{$news.SunlyNetPic}" alt="" /></a>
+        </div> 
+        <div class="col-md-6 col-sm-6 col-xs-12"> 
+         <h3>{$news.NewsNamech}</h3> 
+         <h5><span class="post_date">发布时间: {$news.AddTime}</span></h5> 
+         <p>{$news.SeoDescriptionch}</p> 
+         <a href="/news/{$news.ID}" class="link-btn">阅读全文</a> 
+        </div> 
+       </div> 
+      {/volist}
+      </div> 
+      <center>{$list->render()}</center>
+      <!--===== POST END ======--> 
+     </div> 
+    </div> 
+   </section> 
+  </section> 
+        </div>
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <!--END RIGHT LISTINGS--> 
+     </div> 
+    </div> 
+  
+   </div> 
+  </section> 
+  {include file="./application/index/view/index/page_footer.html"/}
+ </body>
+</html>

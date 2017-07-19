@@ -1,0 +1,181 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>Proton - Admin Template</title>
+
+		{include file="./application/admin/view/index/page_googlefont.html"/}
+
+		<!-- Favicon and touch icons -->
+		<link rel="shortcut icon" href="__PUBLIC__/assets/ico/favicon.ico" type="image/x-icon" />
+
+	    <!-- Css files -->
+	    <link href="__PUBLIC__/assets/css/bootstrap.min.css" rel="stylesheet">
+		<link href="__PUBLIC__/assets/css/jquery.mmenu.css" rel="stylesheet">
+		<link href="__PUBLIC__/assets/css/font-awesome.min.css" rel="stylesheet">
+		<link href="__PUBLIC__/assets/plugins/jquery-ui/css/jquery-ui-1.10.4.min.css" rel="stylesheet">
+	    <link href="__PUBLIC__/assets/css/style.min.css" rel="stylesheet">
+		<link href="__PUBLIC__/assets/css/add-ons.min.css" rel="stylesheet">
+	</head>
+</head>
+
+<body>
+{include file="./application/admin/view/index/page_top.html"/}
+	
+	<div class="container-fluid content">
+	
+		<div class="row">
+
+			{include file="./application/admin/view/index/page_menu.html"/}
+						
+		<!-- start: Content -->
+		<div class="main ">
+		
+			<div class="row">
+				<div class="col-lg-12">
+					<h3 class="page-header"><i class="fa fa-tags"></i>修改密码</h3>
+					<ol class="breadcrumb">
+						<li><i class="fa fa-home"></i><a href="/admin/index/index/">Home</a></li>
+						<li><i class="fa fa-list-alt"></i><a href="#">帐户设置</a></li>
+						<li><i class="fa fa-tags"></i>修改密码</li>
+					</ol>
+				</div>
+			</div>
+			
+			<div class="row">
+				
+				<div class="col-lg-12">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h2><i class="fa fa-tags red"></i><strong>修改密码</strong></h2>
+						</div>
+						<div class="panel-body">
+							
+							<div id="wizard1" class="wizard-type1">
+								<ul class="steps">
+								  	<li><a href="form-wizard.html#tab11" data-toggle="tab"><span class="badge badge-info"><i class="fa fa-star"></i></span> 修改密码</a></li>
+								</ul>
+								<div class="progress thin">
+									<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+									</div>
+								</div>
+								<script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+								<script>
+                                    var app = angular.module('myApp', []);
+                                    app.controller('registerCtrl', function($scope) {
+                                    });
+								</script>
+								<div ng-app="myApp" ng-controller="registerCtrl">
+								<form class="form-horizontal" name="registerForm" action="/admin/index/savepass" novalidate>
+								<div class="tab-content">
+								    <div class="tab-pane" id="tab11">
+											<div class="form-group">
+							                    <label for="username">管理员</label>
+												<input type="text" id="username" name="username" class="form-control" value="{$username}" readonly>
+							                    <span class="help-block">管理员名称</span>
+							                </div>
+							                <div class="form-group">
+							                    <label for="password">新密码</label>
+							                    <input type="password" class="form-control" ng-model="password" ng-minlength="6" ng-maxlength="20" name="password" id="password" placeholder="请输入密码..." required>
+												<span style="color: red" ng-show="registerForm.password.$invalid">
+                        <span ng-show="registerForm.password.$error.minlength">*密码长度不小于6</span>
+                        <span ng-show="registerForm.password.$error.maxlength">*密码长度不超过20</span>
+                    </span>
+							                </div>
+											<div class="form-group">
+												<label for="passwordagain">确认新密码</label>
+												<input type="password" class="form-control" ng-model="passwordagain" name="passwordagain" id="passwordagain" placeholder="请再输一遍密码..." required>
+												<span style="color: red" ng-show="registerForm.password.$valid">
+                        <span ng-show="passwordagain!=password">*两次密码输入不一致</span>
+                    </span>
+											</div>
+								    </div>
+
+								</div>
+								
+								<div class="actions">
+									<input type="button" class="btn btn-default button-previous" name="prev" value="Prev" style="visibility: hidden;"/>
+									<input type="submit" class="btn btn-primary button-finish pull-right" name="finish" value="修改" ng-disabled="registerForm.password.$invalid || password != passwordagain"/>
+								</div>
+								</form>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+					
+				</div><!--/col-->
+			</div><!--/row-->
+			
+
+		</div>
+		<!-- end: Content -->
+		<br><br><br>
+		
+		
+		
+
+	</div><!--/container-->
+		
+	
+
+	<div class="clearfix"></div>
+	
+		
+	<!-- start: JavaScript-->
+	<!--[if !IE]>-->
+
+			<script src="__PUBLIC__/assets/js/jquery-2.1.1.min.js"></script>
+
+	<!--<![endif]-->
+
+	<!--[if IE]>
+	
+		<script src="__PUBLIC__/assets/js/jquery-1.11.1.min.js"></script>
+	
+	<![endif]-->
+
+	<!--[if !IE]>-->
+
+		<script type="text/javascript">
+			window.jQuery || document.write("<script src='__PUBLIC__/assets/js/jquery-2.1.1.min.js'>"+"<"+"/script>");
+		</script>
+
+	<!--<![endif]-->
+
+	<!--[if IE]>
+	
+		<script type="text/javascript">
+	 	window.jQuery || document.write("<script src='__PUBLIC__/assets/js/jquery-1.11.1.min.js'>"+"<"+"/script>");
+		</script>
+		
+	<![endif]-->
+	<script src="__PUBLIC__/assets/js/jquery-migrate-1.2.1.min.js"></script>
+	<script src="__PUBLIC__/assets/js/bootstrap.min.js"></script>
+	
+	
+	<!-- page scripts -->
+	<script src="__PUBLIC__/assets/plugins/jquery-ui/js/jquery-ui-1.10.4.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/chosen/js/chosen.jquery.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/autosize/jquery.autosize.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/placeholder/jquery.placeholder.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/wizard/jquery.bootstrap.wizard.min.js"></script>
+	<script src="__PUBLIC__/assets/plugins/maskedinput/jquery.maskedinput.min.js"></script>
+	
+	<!-- theme scripts -->
+	<script src="__PUBLIC__/assets/js/SmoothScroll.js"></script>
+	<script src="__PUBLIC__/assets/js/jquery.mmenu.min.js"></script>
+	<script src="__PUBLIC__/assets/js/core.min.js"></script>
+	
+	<!-- inline scripts related to this page -->
+	<script src="__PUBLIC__/assets/js/pages/form-wizard.js"></script>
+	
+	<!-- end: JavaScript-->
+	
+</body>
+</html>

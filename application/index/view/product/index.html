@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+ <head> 
+  <title>{$ThisName}-{$ComName}</title> 
+  <meta name="keywords" content="{$keywords}">
+  <meta name="description" content="{$Descriptions}">
+  {include file="./application/index/view/index/page_css.html"/}
+ </head> 
+ <body> 
+  {include file="./application/index/view/index/page_header.html"/}
+  
+  <!--====== BANNER ==========--> 
+  <section> 
+   <div class="rows inner_banner"> 
+    <div class="container"> 
+     <h2>{$ThisName}</h2>
+     <ul>
+      <li><a href="/">首页</a></li>
+      <li><i class="fa fa-angle-right" aria-hidden="true"></i> </li>
+      <li><a href="/productlist.html" class="bread-acti">产品中心</a></li>
+     </ul> 
+     <p>{$Descriptions}</p> 
+    </div> 
+   </div> 
+  </section> 
+  <!--====== PLACES ==========--> 
+  <section> 
+   <div class="rows inn-page-bg com-colo"> 
+    <div class="container inn-page-con-bg tb-space pad-bot-redu" id="inner-page-title" style="padding-top:40px;"> 
+     <!-- TITLE & DESCRIPTION --> 
+     <div class="spe-title col-md-12"> 
+         {volist name="nslist" id="vo"} 
+            {if condition="($getid eq $vo.ID)"}
+            <a href="/productlist/{$vo.ID}.html" class="lefthot">{$vo.SortNamech}</a>
+            {else}
+            <a href="/productlist/{$vo.ID}.html" class="leftun">{$vo.SortNamech}</a>
+            {/if}
+         {/volist}
+      <div class="title-line" style="margin-top:25px;"> 
+       <div class="tl-1"></div> 
+       <div class="tl-2"></div> 
+       <div class="tl-3"></div> 
+      </div> 
+     </div> 
+     <div> 
+      {volist name="list" id="news"} 
+      <!--====== PACKAGE ==========--> 
+      <div class="col-md-4 col-sm-6 col-xs-12 b_packages"> 
+       <div class="v_place_img">
+        <a href="/product/{$news.ID}.html"><img src="{$news.SmallPic}" alt="{$news.ProductNamech}" title="{$news.ProductNamech}" /></a>
+       </div> 
+       <div class="b_pack rows"> 
+        <div class="col-md-8 col-sm-8"> 
+         <h4><a href="/product/{$news.ID}.html">{$news.ProductNamech}</a></h4> 
+        </div> 
+       </div> 
+      </div> 
+      {/volist}
+     </div>
+     <div style="width:100%; display:table;"><center>{$list->render()}</center></div>
+    </div> 
+   </div> 
+  </section> 
+  
+  {include file="./application/index/view/index/page_footer.html"/}
+ </body>
+</html>

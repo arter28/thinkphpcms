@@ -1,0 +1,50 @@
+<!-- start: Main Menu -->
+<div class="sidebar ">
+
+    <div class="sidebar-collapse">
+        <div class="sidebar-header t-center">
+            <span><b class="logofont">SunlyNet</b><i class="fa fa-jsfiddle fa-3x blue logoico"></i></span>
+        </div>
+        <div class="sidebar-menu">
+            <ul class="nav nav-sidebar">
+                <li{if($menuname eq '系统概况')} class="active"{/if}><a href="/admin/index/index"><i class="fa fa-laptop"></i><span class="text"> 系统概况</span></a></li>
+                <li{if($menuname eq '网站设置')} class="active"{/if}><a href="/admin/index/setsite"><i class="fa fa-cogs"></i><span class="text"> 网站设置</span></a></li>
+                <li{if($menuname eq '关于我们' OR $menuname eq '添加文章')} class="opened"{/if}>
+                    <a href="#"><i class="fa fa-file-text"></i><span class="text"> 关于我们</span> <span class="fa fa-angle-down pull-right"></span></a>
+                    <ul class="nav sub"{if($menuname eq '关于我们' OR $menuname eq '添加文章')} style="display:block;"{/if}>
+                        <li{if($menuname eq '关于我们')} class="active"{/if}><a href="/admin/index/about"><i class="fa fa-file-text"></i><span class="text"> 文章管理</span></a></li>
+                        <li{if($menuname eq '添加文章')} class="active"{/if}><a href="/admin/index/aboutadd"><i class="fa fa-plus-square-o"></i><span class="text"> 添加文章</span></a></li>
+                    </ul>
+                </li>
+                <li{if($menuname eq '产类列' OR $menuname eq '产类加' OR $menuname eq '产列' OR $menuname eq '产加')} class="opened"{/if}>
+                    <a href="#"><i class="fa fa-th"></i><span class="text"> 产品管理</span> <span class="fa fa-angle-down pull-right"></span></a>
+                    <ul class="nav sub"{if($menuname eq '产类列' OR $menuname eq '产类加' OR $menuname eq '产列' OR $menuname eq '产加')} style="display:block;"{/if}>
+                        <li{if($menuname eq '产类列')} class="active"{/if}><a href="/admin/product/sort"><i class="fa fa-sitemap"></i><span class="text"> 分类管理</span></a></li>
+                        <li{if($menuname eq '产类加')} class="active"{/if}><a href="/admin/product/sortadd"><i class="fa fa-plus-square-o"></i><span class="text"> 添加分类</span></a></li>
+                        <li{if($menuname eq '产列')} class="active"{/if}><a href="/admin/product/index"><i class="fa fa-th"></i><span class="text"> 产品管理</span></a></li>
+                        <li{if($menuname eq '产加')} class="active"{/if}><a href="/admin/product/add"><i class="fa fa-plus-square-o"></i><span class="text"> 添加产品</span></a></li>
+                    </ul>
+                </li>
+                <li{if($menuname eq '新类列' OR $menuname eq '新类加' OR $menuname eq '新列' OR $menuname eq '新加')} class="opened"{/if}>
+                    <a href="#"><i class="fa fa-signal"></i><span class="text"> 新闻管理</span> <span class="fa fa-angle-down pull-right"></span></a>
+                    <ul class="nav sub"{if($menuname eq '新类列' OR $menuname eq '新类加' OR $menuname eq '新列' OR $menuname eq '新加')} style="display:block;"{/if}>
+                        <li{if($menuname eq '新类列')} class="active"{/if}><a href="/admin/news/sort"><i class="fa fa-sitemap"></i><span class="text"> 分类管理</span></a></li>
+                        <li{if($menuname eq '新类加')} class="active"{/if}><a href="/admin/news/sortadd"><i class="fa fa-plus-square-o"></i><span class="text"> 添加分类</span></a></li>
+                        <li{if($menuname eq '新列')} class="active"{/if}><a href="/admin/news/index"><i class="fa fa-th"></i><span class="text"> 新闻管理</span></a></li>
+                        <li{if($menuname eq '新加')} class="active"{/if}><a href="/admin/news/add"><i class="fa fa-plus-square-o"></i><span class="text"> 添加新闻</span></a></li>
+                    </ul>
+                </li>
+                <li{if($menuname eq '咨询反馈')} class="active"{/if}><a href="/admin/index/message"><i class="fa fa-life-bouy"></i><span class="text"> 咨询反馈</span></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="sidebar-footer">
+
+
+        <div class="copyright text-center">
+            <small>SunlyNet <i class="fa fa-coffee"></i> from <a href="http://www.sunlynet.cn/" title="新尼网络" target="_blank">新尼网络</a></small>
+        </div>
+    </div>
+
+</div>
+<!-- end: Main Menu -->
